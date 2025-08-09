@@ -1,0 +1,2 @@
+split,total_predictions,matched_predictions,unmatched_predictions,matching_rate,overall_accuracy,weighted_f1,bird_accuracy,bobcat_accuracy,car_accuracy,cat_accuracy,coyote_accuracy,deer_accuracy,dog_accuracy,opossum_accuracy,rabbit_accuracy,raccoon_accuracy,rodent_accuracy,skunk_accuracy,squirrel_accuracy
+cis_val,1748,1702,46,0.9736842105263158,0.981198589894242,0.9812154249890914,0.9571428571428572,0.9518072289156626,1.0,0.9753086419753086,0.9782608695652174,1.0,0.9803921568627451,0.9886039886039886,0.9915254237288136,0.9763779527559056,1.0,1.0,0.9662162162162162

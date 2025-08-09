@@ -1,0 +1,14 @@
+# config.yaml
+
+data:
+  raw_images: data/cct_images/
+  raw_metadata:
+    images_json: data/annotations/caltech_images_20210113.json
+    annotations_json: data/annotations/caltech_bboxes_20200316.json
+    splits_json: data/annotations/CaltechCameraTrapsSplits_v0.json
+
+  split_output: data/processed/splits/image_splits.json
+
+project:
+  seed: 42
+  split_ratio: 0.9  # 90% for train_final, 10% for val_internal

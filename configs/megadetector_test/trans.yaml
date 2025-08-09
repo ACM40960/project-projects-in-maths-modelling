@@ -1,0 +1,31 @@
+# megadetector.yaml  –  Megadetector train dataset spec
+# --------------------------------------------------
+# Folder layout after the COCO→YOLO conversion:
+#
+# data/
+# └── megadetector_images/
+#     ├── train/
+#     ├── train_balanced/
+#     │   ├── images/…jpg
+#     │   └── labels/…txt
+#     ├── val/             # merged cis + trans 
+#     ├── cis_val/
+#     ├── trans_val/
+#     ├── cis_test/
+#     └── trans_test/
+#     └── names.txt        # auto-generated class list
+# --------------------------------------------------
+
+path: C:/caltech_camera_traps_project/data/megadetector_images   # dataset root
+
+# primary splits used by the trainer
+train: train_balanced/images          # images/train_balanced  + labels/train_balanced
+val:   trans_val/images            # images/val    + labels/val     (merged cis+trans)
+test:  trans_test/images     # images/trans_test + labels/trans_test
+
+
+nc: 2
+
+names:
+  0: animal
+  1: vehicle

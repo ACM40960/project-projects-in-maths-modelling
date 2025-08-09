@@ -1,0 +1,4 @@
+megadetector_v6_all_classes : 0.15
+y8_augmented_2  : 0.10
+megadetector_v6: 0.35
+convnext: 0.55

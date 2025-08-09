@@ -1,0 +1,47 @@
+# === python junk ===
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# === virtual envs ===
+.venv/
+venv/
+env/
+ENV/
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === logs ===
+logs/
+*.log
+
+# === (1) DATA: exclude specific subfolders ===
+/data/annotations/
+/data/crops_gt/
+/data/images/
+/data/megadetector_crops/
+/data/megadetector_images/
+/data/yolo_images/
+*.tar.gz
+
+# === (2) ignore any folder named "runs" anywhere ===
+**/runs/
+
+# === (3) MODELS: exclude specific files ===
+/models/megadetectorv6_allClasses.onnx
+**/*.pt
+
+# === (4) TRAIN SCRIPTS: exclude the shown subfolders ===
+/scripts/train/convnext_classaware/
+/scripts/train/convnext_classaware_finetuned/
+/scripts/train/efficientnet_v2_s/
+/scripts/train/efficientnet_v2_s_classaware/
+/scripts/train/megadetector_v6/
+/scripts/train/tensorlogs/
+/scripts/train/wandb/
+/scripts/train/yolov8/
+
+# === (5) WEB APP: exclude specific file ===
+/web_app/utils/diagram.py

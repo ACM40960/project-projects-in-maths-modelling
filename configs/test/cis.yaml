@@ -1,0 +1,40 @@
+# yolo_balanced.yaml  –  YOLO-v8 balanced train dataset spec
+# --------------------------------------------------
+# Folder layout after the COCO→YOLO conversion:
+#
+# data/
+# └── yolo_images/
+#     ├── train/
+#     ├── train_balanced/
+#     │   ├── images/…jpg
+#     │   └── labels/…txt
+#     ├── val/             # merged cis + trans 
+#     ├── cis_val/
+#     ├── trans_val/
+#     ├── cis_test/
+#     └── trans_test/
+#     └── names.txt        # auto-generated class list
+# --------------------------------------------------
+
+path: C:/caltech_camera_traps_project/data/yolo_images   # dataset root
+
+# primary splits used by the trainer
+train: train_balanced          # images/train_balanced  + labels/train_balanced
+val:   cis_val            # images/val    + labels/val     (merged cis+trans)
+test:  cis_test     # images/trans_test + labels/trans_test
+
+names:
+  0: opossum
+  1: raccoon
+  2: squirrel
+  3: bobcat
+  4: skunk
+  5: dog
+  6: coyote
+  7: rabbit
+  8: bird
+  9: cat
+  10: badger
+  11: car
+  12: deer
+  13: rodent

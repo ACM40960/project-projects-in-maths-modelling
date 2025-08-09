@@ -1,0 +1,4 @@
+model,images,conf_thresh,total_sec,sec_per_img,fps
+yolov8_augmented,3736,0.1,86.531,0.0232,43.18
+megadetectorv6_allClasses,3736,0.15,232.447,0.0622,16.07
+megadetectorv6,3736,0.35,185.731,0.0497,20.12

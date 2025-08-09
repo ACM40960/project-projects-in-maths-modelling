@@ -1,0 +1,7922 @@
+[
+  {
+    "filename": "585a630e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      754,
+      363,
+      1023,
+      579
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8690272569656372
+  },
+  {
+    "filename": "585daa7a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9946568012237548
+  },
+  {
+    "filename": "585dab28-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9947023391723632
+  },
+  {
+    "filename": "5860ecfb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      239,
+      325,
+      494,
+      480
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8699952363967896
+  },
+  {
+    "filename": "5860ef11-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9953396320343018
+  },
+  {
+    "filename": "5862945a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      698,
+      475,
+      935,
+      716
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9469544291496277
+  },
+  {
+    "filename": "5862950e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      436,
+      316,
+      677,
+      447
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8775200247764587
+  },
+  {
+    "filename": "586437b3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      556,
+      242,
+      662,
+      313
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8875183463096619
+  },
+  {
+    "filename": "586437b3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      402,
+      160,
+      508,
+      256
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8882589340209961
+  },
+  {
+    "filename": "586437b3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      596,
+      304,
+      709,
+      415
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8872157335281372
+  },
+  {
+    "filename": "586437c2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      644,
+      255,
+      1023,
+      605
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8766746520996094
+  },
+  {
+    "filename": "5865e28f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      894,
+      142,
+      1023,
+      435
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8811582326889038
+  },
+  {
+    "filename": "5865e331-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9945296049118042
+  },
+  {
+    "filename": "58678d34-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      372,
+      354,
+      654,
+      533
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8741801381111145
+  },
+  {
+    "filename": "58678d74-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9947316646575928
+  },
+  {
+    "filename": "58693629-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      1,
+      432,
+      199,
+      539
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9192975163459778
+  },
+  {
+    "filename": "58693778-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9929370880126952
+  },
+  {
+    "filename": "586c884c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      939,
+      362,
+      1023,
+      460
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8868613839149475
+  },
+  {
+    "filename": "586e2ec9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      673,
+      529,
+      920,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9493895769119263
+  },
+  {
+    "filename": "586e312b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.995076060295105
+  },
+  {
+    "filename": "587185d7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      398,
+      171,
+      492,
+      300
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.5665201544761658
+  },
+  {
+    "filename": "587186aa-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      480,
+      230,
+      628,
+      427
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.888046145439148
+  },
+  {
+    "filename": "5879d1d5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9946188926696776
+  },
+  {
+    "filename": "587eeb49-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      588,
+      309,
+      796,
+      458
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9309487342834473
+  },
+  {
+    "filename": "58809361-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9946514368057252
+  },
+  {
+    "filename": "58823d97-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      465,
+      320,
+      567,
+      403
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.5580899715423584
+  },
+  {
+    "filename": "5883ea52-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      211,
+      185,
+      356,
+      301
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8924093842506409
+  },
+  {
+    "filename": "58857c9a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      200,
+      311,
+      374,
+      475
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9298493266105652
+  },
+  {
+    "filename": "5887173d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      648,
+      267,
+      738,
+      366
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9085510969161987
+  },
+  {
+    "filename": "5888be9e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9951049089431764
+  },
+  {
+    "filename": "588a6763-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      119,
+      344,
+      231,
+      427
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9538859724998474
+  },
+  {
+    "filename": "588c1238-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      260,
+      154,
+      812,
+      608
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8758230805397034
+  },
+  {
+    "filename": "588f66da-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      671,
+      473,
+      1004,
+      641
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9289371371269226
+  },
+  {
+    "filename": "58910ef8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9792855978012084
+  },
+  {
+    "filename": "5892b4dd-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      30,
+      307,
+      113,
+      419
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8834738731384277
+  },
+  {
+    "filename": "5892b63f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      610,
+      378,
+      941,
+      699
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8609416484832764
+  },
+  {
+    "filename": "5892b695-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      754,
+      357,
+      891,
+      492
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.795864462852478
+  },
+  {
+    "filename": "5897b215-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      383,
+      381,
+      641,
+      508
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9176769256591797
+  },
+  {
+    "filename": "589958f5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9954196214675904
+  },
+  {
+    "filename": "589959f2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      389,
+      364,
+      664,
+      521
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8700255751609802
+  },
+  {
+    "filename": "589cb238-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      327,
+      109,
+      427,
+      301
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.891887903213501
+  },
+  {
+    "filename": "589cb461-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      73,
+      378,
+      592,
+      690
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8612281680107117
+  },
+  {
+    "filename": "589cb516-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      880,
+      392,
+      1023,
+      499
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9430064558982849
+  },
+  {
+    "filename": "589cb516-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      466,
+      444,
+      623,
+      606
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9442988634109497
+  },
+  {
+    "filename": "589e69af-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      487,
+      303,
+      553,
+      369
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9278900623321533
+  },
+  {
+    "filename": "58a1ca02-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9944345951080322
+  },
+  {
+    "filename": "58a52d74-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      604,
+      515,
+      810,
+      711
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9505138397216797
+  },
+  {
+    "filename": "58a52eb1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      623,
+      272,
+      747,
+      342
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9415735602378845
+  },
+  {
+    "filename": "58a6e68f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      215,
+      386,
+      326,
+      492
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9539264440536499
+  },
+  {
+    "filename": "58a8a0e5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      331,
+      295,
+      476,
+      391
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.7739582061767578
+  },
+  {
+    "filename": "58a8a124-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      926,
+      493,
+      1023,
+      662
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8578749895095825
+  },
+  {
+    "filename": "58a8a246-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      896,
+      367,
+      1023,
+      596
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8821868300437927
+  },
+  {
+    "filename": "58aa5b29-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      327,
+      756,
+      745
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8801719546318054
+  },
+  {
+    "filename": "58ac0b69-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.994779109954834
+  },
+  {
+    "filename": "58ac0ef8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      4,
+      297,
+      246,
+      534
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8703032732009888
+  },
+  {
+    "filename": "58af7532-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      753,
+      398,
+      1019,
+      632
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9190112352371216
+  },
+  {
+    "filename": "58af76c5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9953024983406068
+  },
+  {
+    "filename": "58b12f99-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9947683811187744
+  },
+  {
+    "filename": "58b1304a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9949402809143066
+  },
+  {
+    "filename": "58b2eda9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      185,
+      370,
+      435,
+      484
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9296143054962158
+  },
+  {
+    "filename": "58b2ee31-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      484,
+      259,
+      755,
+      439
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8668397665023804
+  },
+  {
+    "filename": "58b2ef04-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      532,
+      396,
+      651,
+      500
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.944732666015625
+  },
+  {
+    "filename": "58b2f082-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      213,
+      414,
+      345,
+      543
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9231123328208923
+  },
+  {
+    "filename": "58b4aa4d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9949036836624146
+  },
+  {
+    "filename": "58b4ab32-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9952828288078308
+  },
+  {
+    "filename": "58b4ab5d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9949284791946412
+  },
+  {
+    "filename": "58b4ac39-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      212,
+      356,
+      533
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8923499584197998
+  },
+  {
+    "filename": "58b8234d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9951342940330504
+  },
+  {
+    "filename": "58b9d6e8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      1,
+      339,
+      106,
+      412
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.949368417263031
+  },
+  {
+    "filename": "58b9d928-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      409,
+      354,
+      675,
+      539
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9245122075080872
+  },
+  {
+    "filename": "58bb8a3a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      502,
+      306,
+      727
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8621941208839417
+  },
+  {
+    "filename": "58bd1ba2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      422,
+      340,
+      519,
+      450
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.7768322229385376
+  },
+  {
+    "filename": "58bea653-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      615,
+      261,
+      859,
+      496
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8539663553237915
+  },
+  {
+    "filename": "58bea653-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      241,
+      432,
+      374,
+      556
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8764040470123291
+  },
+  {
+    "filename": "58bea668-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9847557544708252
+  },
+  {
+    "filename": "58bea710-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      636,
+      393,
+      907,
+      543
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9242796897888184
+  },
+  {
+    "filename": "58c035b6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      561,
+      304,
+      735,
+      428
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8461114764213562
+  },
+  {
+    "filename": "58c1c200-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      295,
+      93,
+      489,
+      371
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8711265325546265
+  },
+  {
+    "filename": "58c34ce5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.994365394115448
+  },
+  {
+    "filename": "58c34f3e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      392,
+      122,
+      582,
+      546
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8935157060623169
+  },
+  {
+    "filename": "58c4d5cc-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9947972297668456
+  },
+  {
+    "filename": "58c4d626-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      610,
+      302,
+      917,
+      503
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8647558093070984
+  },
+  {
+    "filename": "58c4d679-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      685,
+      446,
+      753,
+      507
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8611328601837158
+  },
+  {
+    "filename": "58c4d7d7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      930,
+      496,
+      1022,
+      670
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9404348134994507
+  },
+  {
+    "filename": "58c4d919-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      234,
+      484,
+      644,
+      746
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8819628357887268
+  },
+  {
+    "filename": "58c7f13c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      185,
+      398,
+      336,
+      492
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9249632358551025
+  },
+  {
+    "filename": "58c7f203-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      779,
+      61,
+      957,
+      275
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8840140104293823
+  },
+  {
+    "filename": "58c97d57-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9945417642593384
+  },
+  {
+    "filename": "58cb11a1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      381,
+      237,
+      575
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8820198774337769
+  },
+  {
+    "filename": "58cca588-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      460,
+      166,
+      860,
+      507
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8885012865066528
+  },
+  {
+    "filename": "58ce3cdf-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      756,
+      422,
+      899,
+      547
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9428167939186096
+  },
+  {
+    "filename": "58d47dd5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      536,
+      360,
+      823,
+      526
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9268908500671387
+  },
+  {
+    "filename": "58d47e50-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      202,
+      507,
+      290,
+      603
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9372949600219727
+  },
+  {
+    "filename": "58d47f05-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      391,
+      565,
+      500,
+      683
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9487473964691162
+  },
+  {
+    "filename": "58d47f05-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      824,
+      679,
+      926,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9432322978973389
+  },
+  {
+    "filename": "58d613fb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      577,
+      228,
+      904,
+      406
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8733586668968201
+  },
+  {
+    "filename": "58d61449-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9919204115867616
+  },
+  {
+    "filename": "58d614b5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      614,
+      526,
+      728,
+      647
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8828607201576233
+  },
+  {
+    "filename": "58d93111-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      611,
+      648,
+      1021,
+      746
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8504607677459717
+  },
+  {
+    "filename": "58dabfd3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      462,
+      460,
+      627,
+      601
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9420046806335449
+  },
+  {
+    "filename": "58dabfd3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      891,
+      393,
+      996,
+      503
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.950924813747406
+  },
+  {
+    "filename": "58dac109-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.994616150856018
+  },
+  {
+    "filename": "58df67a6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      1,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9932646751403807
+  },
+  {
+    "filename": "58df67a9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      343,
+      354,
+      883,
+      720
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8572101593017578
+  },
+  {
+    "filename": "58e0f4b4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      622,
+      474,
+      715,
+      539
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8842673897743225
+  },
+  {
+    "filename": "58e0f5fd-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      637,
+      567,
+      940,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9438348412513733
+  },
+  {
+    "filename": "58e0f661-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      406,
+      226,
+      718,
+      411
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8799759149551392
+  },
+  {
+    "filename": "58e0f83b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      318,
+      546,
+      447,
+      678
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9518182277679443
+  },
+  {
+    "filename": "58e0f84f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9932045936584472
+  },
+  {
+    "filename": "58e281d7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9950716495513916
+  },
+  {
+    "filename": "58e40c77-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      232,
+      226,
+      616,
+      441
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8843156695365906
+  },
+  {
+    "filename": "58e598c3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      154,
+      335,
+      430,
+      503
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8891234993934631
+  },
+  {
+    "filename": "58e599cd-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      824,
+      573,
+      1012,
+      745
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9451742768287659
+  },
+  {
+    "filename": "58e93a29-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      651,
+      547,
+      836,
+      720
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9461097121238708
+  },
+  {
+    "filename": "58e93a29-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      649,
+      486,
+      854,
+      717
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9413195848464966
+  },
+  {
+    "filename": "58eaca89-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      576,
+      198,
+      1023,
+      746
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8968596458435059
+  },
+  {
+    "filename": "58eaca89-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      727,
+      87,
+      924,
+      270
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.889721155166626
+  },
+  {
+    "filename": "58ede0f8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      616,
+      317,
+      910,
+      526
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8750694394111633
+  },
+  {
+    "filename": "58ede23f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      685,
+      571,
+      903,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9500818252563477
+  },
+  {
+    "filename": "58ede2b7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      219,
+      483,
+      368,
+      681
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9395892024040222
+  },
+  {
+    "filename": "58ede2b7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      415,
+      138,
+      528
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9399814605712891
+  },
+  {
+    "filename": "58ede32e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      131,
+      264,
+      305,
+      420
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9235042929649353
+  },
+  {
+    "filename": "58ef6d78-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      190,
+      175,
+      546
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.89668208360672
+  },
+  {
+    "filename": "58ef6eff-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      485,
+      191,
+      946,
+      543
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8867847919464111
+  },
+  {
+    "filename": "58ef6f50-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      779,
+      61,
+      960,
+      275
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8834777474403381
+  },
+  {
+    "filename": "58f1083b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      376,
+      297,
+      547,
+      426
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8744654655456543
+  },
+  {
+    "filename": "58f5b1f4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      186,
+      294,
+      633,
+      746
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8895723819732666
+  },
+  {
+    "filename": "58f5b1f4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      739,
+      94,
+      918,
+      269
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8763294816017151
+  },
+  {
+    "filename": "58f8cd1c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      600,
+      358,
+      860,
+      617
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9213525056838989
+  },
+  {
+    "filename": "58f8cf82-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      191,
+      344,
+      388,
+      485
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9315466284751892
+  },
+  {
+    "filename": "59023523-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      650,
+      243,
+      902,
+      426
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8870429396629333
+  },
+  {
+    "filename": "590235db-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      75,
+      372,
+      220,
+      590
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.876809298992157
+  },
+  {
+    "filename": "5902370c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      391,
+      13,
+      522,
+      199
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8904264569282532
+  },
+  {
+    "filename": "59023746-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      68,
+      359,
+      419,
+      680
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8787641525268555
+  },
+  {
+    "filename": "59023746-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      743,
+      92,
+      920,
+      269
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8786600828170776
+  },
+  {
+    "filename": "5903ce2e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      145,
+      556,
+      344,
+      737
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8616687655448914
+  },
+  {
+    "filename": "59055f92-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      411,
+      286,
+      689,
+      483
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.888891875743866
+  },
+  {
+    "filename": "59055ff8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      3,
+      537,
+      540,
+      746
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.9044380784034729
+  },
+  {
+    "filename": "5906f22b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      460,
+      555,
+      626,
+      687
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9552043080329895
+  },
+  {
+    "filename": "59087e6f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      694,
+      336,
+      807,
+      428
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9462067484855652
+  },
+  {
+    "filename": "590b9d2d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      216,
+      351,
+      311,
+      438
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9135113954544067
+  },
+  {
+    "filename": "590b9d41-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      343,
+      372,
+      522,
+      524
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8840953707695007
+  },
+  {
+    "filename": "590d2a82-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      136,
+      670,
+      512
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8577094078063965
+  },
+  {
+    "filename": "590d2b9c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      35,
+      383,
+      159,
+      467
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.895784854888916
+  },
+  {
+    "filename": "590d2ba4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      626,
+      574,
+      918,
+      746
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8880395293235779
+  },
+  {
+    "filename": "590d2cd2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      767,
+      323,
+      1023,
+      507
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8807789087295532
+  },
+  {
+    "filename": "590ebd38-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      136,
+      357,
+      399,
+      494
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8687953352928162
+  },
+  {
+    "filename": "590ebe3f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9949901700019836
+  },
+  {
+    "filename": "590ebe8c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      255,
+      100,
+      413,
+      230
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8735517263412476
+  },
+  {
+    "filename": "590ebe8c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      597,
+      111,
+      771,
+      356
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8716522455215454
+  },
+  {
+    "filename": "5911d6ee-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      503,
+      342,
+      961,
+      676
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8904732465744019
+  },
+  {
+    "filename": "5911d7df-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      848,
+      563,
+      984,
+      745
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9388061761856079
+  },
+  {
+    "filename": "59136432-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      294,
+      377,
+      557,
+      746
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8868915438652039
+  },
+  {
+    "filename": "59136432-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      738,
+      91,
+      920,
+      268
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8746808171272278
+  },
+  {
+    "filename": "5913664d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9948830604553224
+  },
+  {
+    "filename": "5914ef1a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      51,
+      433,
+      331,
+      746
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8979312181472778
+  },
+  {
+    "filename": "591679c9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      299,
+      83,
+      418,
+      271
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8810761570930481
+  },
+  {
+    "filename": "591679f9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.994354486465454
+  },
+  {
+    "filename": "59167a9f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      660,
+      228,
+      853,
+      413
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8655992746353149
+  },
+  {
+    "filename": "591807fa-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      207,
+      286,
+      435
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8815296292304993
+  },
+  {
+    "filename": "591809e6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      700,
+      383,
+      871,
+      508
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8536887168884277
+  },
+  {
+    "filename": "59180a10-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      729,
+      241,
+      890,
+      433
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.863807737827301
+  },
+  {
+    "filename": "59180adb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      504,
+      356,
+      731,
+      501
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9303718209266663
+  },
+  {
+    "filename": "59199826-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      415,
+      133,
+      522
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.937465488910675
+  },
+  {
+    "filename": "591998ae-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      606,
+      532,
+      861,
+      707
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8758927583694458
+  },
+  {
+    "filename": "591998ae-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      836,
+      302,
+      967,
+      514
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.889552652835846
+  },
+  {
+    "filename": "591b243b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      859,
+      490,
+      1020,
+      645
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9221706390380859
+  },
+  {
+    "filename": "591b258f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      842,
+      376,
+      995,
+      596
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9534632563591003
+  },
+  {
+    "filename": "591cb1ef-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      217,
+      239,
+      491
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8922494649887085
+  },
+  {
+    "filename": "591fd144-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      673,
+      571,
+      901,
+      745
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9491028785705566
+  },
+  {
+    "filename": "591fd323-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.995168924331665
+  },
+  {
+    "filename": "592163e3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      537,
+      296,
+      710,
+      418
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9274666905403137
+  },
+  {
+    "filename": "5921667e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.99498850107193
+  },
+  {
+    "filename": "5922ea57-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      916,
+      453,
+      1023,
+      605
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9173815846443176
+  },
+  {
+    "filename": "59247b0f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      326,
+      197,
+      716
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8998549580574036
+  },
+  {
+    "filename": "59260df5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      856,
+      591,
+      993,
+      745
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9508378505706787
+  },
+  {
+    "filename": "59260df5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      699,
+      295,
+      816,
+      438
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9540724754333496
+  },
+  {
+    "filename": "59260e36-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      599,
+      320,
+      992,
+      524
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8706866502761841
+  },
+  {
+    "filename": "59260e64-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      398,
+      83,
+      553
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.889316737651825
+  },
+  {
+    "filename": "59279c08-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      438,
+      295,
+      592,
+      411
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8595690131187439
+  },
+  {
+    "filename": "59279c40-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      600,
+      619,
+      1016,
+      746
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.6510739326477051
+  },
+  {
+    "filename": "59279e0f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      822,
+      572,
+      1004,
+      744
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.942943274974823
+  },
+  {
+    "filename": "59292d45-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      845,
+      543,
+      1003,
+      709
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8614392876625061
+  },
+  {
+    "filename": "59292d45-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      431,
+      584,
+      567,
+      722
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8651304841041565
+  },
+  {
+    "filename": "59292d45-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      642,
+      415,
+      858,
+      560
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8529161810874939
+  },
+  {
+    "filename": "59292d45-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      643,
+      427,
+      753,
+      563
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8609298467636108
+  },
+  {
+    "filename": "59292d45-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      724,
+      409,
+      859,
+      541
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8491236567497253
+  },
+  {
+    "filename": "59292d45-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      939,
+      477,
+      1023,
+      564
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8668355941772461
+  },
+  {
+    "filename": "59292e38-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      687,
+      458,
+      1007,
+      648
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8516412377357483
+  },
+  {
+    "filename": "59292ee2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      30,
+      444,
+      401,
+      746
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8722667694091797
+  },
+  {
+    "filename": "59292f28-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      633,
+      323,
+      784,
+      505
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8611141443252563
+  },
+  {
+    "filename": "59292f2c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      236,
+      350,
+      417,
+      449
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.862337589263916
+  },
+  {
+    "filename": "592abd7b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      525,
+      305,
+      647,
+      425
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.946148157119751
+  },
+  {
+    "filename": "592abf64-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9942837953567504
+  },
+  {
+    "filename": "592ac02e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      480,
+      347,
+      721,
+      493
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9273775815963745
+  },
+  {
+    "filename": "592c4c7f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      439,
+      223,
+      539,
+      324
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8881137371063232
+  },
+  {
+    "filename": "592c4e6a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      344,
+      227,
+      503,
+      403
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9305593371391296
+  },
+  {
+    "filename": "592de450-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      149,
+      268,
+      313,
+      397
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9290011525154114
+  },
+  {
+    "filename": "592de490-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      678,
+      616,
+      906,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9473785758018494
+  },
+  {
+    "filename": "593100c4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.993950366973877
+  },
+  {
+    "filename": "59310175-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      351,
+      527,
+      515,
+      742
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8783342838287354
+  },
+  {
+    "filename": "59328a07-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      634,
+      530,
+      822,
+      646
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9361228346824646
+  },
+  {
+    "filename": "59328da6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9951331615447998
+  },
+  {
+    "filename": "59341a84-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      645,
+      536,
+      837,
+      719
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9488652944564819
+  },
+  {
+    "filename": "59341b72-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      51,
+      604,
+      279,
+      746
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8787662982940674
+  },
+  {
+    "filename": "59373325-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      723,
+      380,
+      863,
+      516
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9485988020896912
+  },
+  {
+    "filename": "593a4fc8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      563,
+      345,
+      708,
+      484
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.923507034778595
+  },
+  {
+    "filename": "593ef470-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      925,
+      432,
+      1023,
+      604
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9481261968612671
+  },
+  {
+    "filename": "593ef4d0-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      0,
+      1023,
+      767
+    ],
+    "category": "car",
+    "category_id": 33,
+    "conf": 0.9946982860565186
+  },
+  {
+    "filename": "59421187-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      234,
+      323,
+      619
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.875842273235321
+  },
+  {
+    "filename": "59484646-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      63,
+      328,
+      565,
+      588
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8700034618377686
+  },
+  {
+    "filename": "5949ceac-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      904,
+      323,
+      1020,
+      475
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.7959831953048706
+  },
+  {
+    "filename": "5949cf9a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      753,
+      255,
+      1022,
+      565
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8951584696769714
+  },
+  {
+    "filename": "59641e33-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      693,
+      502,
+      929,
+      656
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9375205039978027
+  },
+  {
+    "filename": "5965a8cb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      714,
+      403,
+      880,
+      512
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8836207985877991
+  },
+  {
+    "filename": "5965ab8f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      695,
+      425,
+      870,
+      533
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8630279898643494
+  },
+  {
+    "filename": "596736e2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      401,
+      305,
+      586,
+      420
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9271100759506226
+  },
+  {
+    "filename": "596736fb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      420,
+      166,
+      592
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9235309362411499
+  },
+  {
+    "filename": "5967377e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      642,
+      536,
+      935,
+      707
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8723956942558289
+  },
+  {
+    "filename": "5968bfe2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      717,
+      280,
+      820,
+      393
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8900502324104309
+  },
+  {
+    "filename": "5968c015-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      285,
+      185,
+      473
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.7713636159896851
+  },
+  {
+    "filename": "5968c195-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      133,
+      377,
+      311,
+      473
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8751205205917358
+  },
+  {
+    "filename": "5968c20a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      522,
+      17,
+      1017,
+      565
+    ],
+    "category": "deer",
+    "category_id": 34,
+    "conf": 0.5988081693649292
+  },
+  {
+    "filename": "5968c20a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      526,
+      120,
+      988,
+      730
+    ],
+    "category": "deer",
+    "category_id": 34,
+    "conf": 0.5582334399223328
+  },
+  {
+    "filename": "596a4c6d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      754,
+      256,
+      829,
+      322
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9458692669868469
+  },
+  {
+    "filename": "596a4ca5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      557,
+      324,
+      698,
+      441
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9226205348968506
+  },
+  {
+    "filename": "596a4d0d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      403,
+      358,
+      536,
+      434
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.923811137676239
+  },
+  {
+    "filename": "596bd7fe-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      334,
+      493,
+      568,
+      646
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8775297403335571
+  },
+  {
+    "filename": "596bd843-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      520,
+      303,
+      651,
+      447
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8908491730690002
+  },
+  {
+    "filename": "596bd855-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      820,
+      432,
+      989,
+      548
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8934409022331238
+  },
+  {
+    "filename": "596bdab0-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      375,
+      483,
+      644,
+      643
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8712385296821594
+  },
+  {
+    "filename": "596d628a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      637,
+      318,
+      782,
+      404
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9405918121337891
+  },
+  {
+    "filename": "596d63b8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      152,
+      627,
+      325,
+      746
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8826201558113098
+  },
+  {
+    "filename": "596d6414-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      677,
+      329,
+      759,
+      423
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8624289035797119
+  },
+  {
+    "filename": "596d6414-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      401,
+      401,
+      539,
+      504
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8577817678451538
+  },
+  {
+    "filename": "596d6445-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      164,
+      344,
+      393,
+      723
+    ],
+    "category": "deer",
+    "category_id": 34,
+    "conf": 0.5515767931938171
+  },
+  {
+    "filename": "596d65e5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      564,
+      412,
+      725,
+      678
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8742625117301941
+  },
+  {
+    "filename": "596d6639-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      383,
+      355,
+      652,
+      555
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8707111477851868
+  },
+  {
+    "filename": "596eeef8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      414,
+      292,
+      900,
+      746
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.7702769041061401
+  },
+  {
+    "filename": "596eef04-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      103,
+      477,
+      219,
+      631
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.934093177318573
+  },
+  {
+    "filename": "596eef60-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      663,
+      264,
+      818,
+      364
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9347447752952576
+  },
+  {
+    "filename": "596ef011-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      451,
+      524,
+      616,
+      655
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8932444453239441
+  },
+  {
+    "filename": "5971f8bb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      186,
+      385,
+      319,
+      515
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9281498193740845
+  },
+  {
+    "filename": "5971f8be-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      283,
+      357,
+      498,
+      463
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.926823079586029
+  },
+  {
+    "filename": "5971fa9e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      680,
+      384,
+      859,
+      514
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8788993954658508
+  },
+  {
+    "filename": "59738699-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      247,
+      501,
+      421,
+      593
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9190157055854797
+  },
+  {
+    "filename": "5973870a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      180,
+      301,
+      320,
+      422
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9273461103439331
+  },
+  {
+    "filename": "59738796-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      533,
+      175,
+      636
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8708813786506653
+  },
+  {
+    "filename": "5973888d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      37,
+      339,
+      112,
+      419
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9160904288291931
+  },
+  {
+    "filename": "5973888d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      34,
+      338,
+      134,
+      443
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.7252944707870483
+  },
+  {
+    "filename": "597388f0-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      424,
+      306,
+      584,
+      416
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9250309467315674
+  },
+  {
+    "filename": "597389a3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      781,
+      356,
+      1023,
+      525
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8749157190322876
+  },
+  {
+    "filename": "59751477-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      506,
+      278,
+      705,
+      375
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9268814325332642
+  },
+  {
+    "filename": "597515da-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      490,
+      338,
+      706,
+      446
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.926246702671051
+  },
+  {
+    "filename": "5975169a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      220,
+      220,
+      407,
+      403
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.878527820110321
+  },
+  {
+    "filename": "597516ef-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      311,
+      413,
+      496,
+      482
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9342808723449707
+  },
+  {
+    "filename": "59751720-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      661,
+      208,
+      787,
+      332
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8699674606323242
+  },
+  {
+    "filename": "5976a27b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      112,
+      53,
+      760,
+      684
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8773881196975708
+  },
+  {
+    "filename": "5976a2ec-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      462,
+      311,
+      628,
+      417
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9296067953109741
+  },
+  {
+    "filename": "5976a45d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      426,
+      309,
+      521,
+      411
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9494220614433289
+  },
+  {
+    "filename": "5976a47d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      537,
+      270,
+      691,
+      432
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8542373180389404
+  },
+  {
+    "filename": "5976a514-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      537,
+      274,
+      678,
+      381
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8621426820755005
+  },
+  {
+    "filename": "5976a546-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      588,
+      162,
+      712,
+      354
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8915756344795227
+  },
+  {
+    "filename": "5976a560-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      589,
+      317,
+      677,
+      420
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9295444488525391
+  },
+  {
+    "filename": "5976a5bb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      283,
+      492,
+      543,
+      640
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8642497062683105
+  },
+  {
+    "filename": "597831f1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      527,
+      380,
+      790,
+      502
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9297112822532654
+  },
+  {
+    "filename": "597832a9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      133,
+      408,
+      330,
+      525
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8747246861457825
+  },
+  {
+    "filename": "5979bc14-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      617,
+      333,
+      789,
+      408
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.929701566696167
+  },
+  {
+    "filename": "5979bcf1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      11,
+      399,
+      232,
+      532
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.920045018196106
+  },
+  {
+    "filename": "597b47d1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      91,
+      559,
+      398,
+      746
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8643659949302673
+  },
+  {
+    "filename": "597b4924-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      317,
+      321,
+      532,
+      427
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.933030366897583
+  },
+  {
+    "filename": "597b4a8c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      665,
+      329,
+      747,
+      455
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8648145794868469
+  },
+  {
+    "filename": "597b4a95-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      182,
+      371,
+      393,
+      503
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9260085821151733
+  },
+  {
+    "filename": "597cd713-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      225,
+      479,
+      347,
+      597
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.902976930141449
+  },
+  {
+    "filename": "597cd783-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      403,
+      326,
+      490,
+      415
+    ],
+    "category": "rodent",
+    "category_id": 99,
+    "conf": 0.5646560788154602
+  },
+  {
+    "filename": "597e60cf-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      273,
+      323,
+      526,
+      560
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9457042813301086
+  },
+  {
+    "filename": "597e60da-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      341,
+      331,
+      524,
+      433
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9274129867553711
+  },
+  {
+    "filename": "597e61d9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      141,
+      363,
+      315,
+      452
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.8355718851089478
+  },
+  {
+    "filename": "597e61d9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      144,
+      368,
+      241,
+      446
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.8353680968284607
+  },
+  {
+    "filename": "597e6285-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      485,
+      311,
+      638,
+      505
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9446729421615601
+  },
+  {
+    "filename": "597e63c4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      228,
+      370,
+      363,
+      457
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8939534425735474
+  },
+  {
+    "filename": "597fee7c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      495,
+      347,
+      731,
+      454
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9293524026870728
+  },
+  {
+    "filename": "597feed6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      680,
+      535,
+      923,
+      714
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8514955639839172
+  },
+  {
+    "filename": "59817a65-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      449,
+      300,
+      654,
+      390
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9312479496002197
+  },
+  {
+    "filename": "59817aae-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      114,
+      381,
+      339,
+      503
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9287810921669006
+  },
+  {
+    "filename": "59817b6c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      687,
+      536,
+      900,
+      707
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8580949902534485
+  },
+  {
+    "filename": "59817bfd-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      736,
+      376,
+      984,
+      507
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9212965965270996
+  },
+  {
+    "filename": "59830639-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      67,
+      541,
+      289,
+      699
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8502854704856873
+  },
+  {
+    "filename": "5984977e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      851,
+      262,
+      966,
+      344
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9520580172538757
+  },
+  {
+    "filename": "5984977e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      625,
+      270,
+      736,
+      326
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.688656747341156
+  },
+  {
+    "filename": "59849840-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      700,
+      537,
+      832,
+      680
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8738359212875366
+  },
+  {
+    "filename": "5987b471-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      432,
+      322,
+      688,
+      498
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8785187005996704
+  },
+  {
+    "filename": "5989418c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      738,
+      513,
+      922,
+      647
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8912478089332581
+  },
+  {
+    "filename": "5989424c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      431,
+      317,
+      512,
+      394
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.945034384727478
+  },
+  {
+    "filename": "59894314-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      426,
+      342,
+      597,
+      447
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9277671575546265
+  },
+  {
+    "filename": "59894401-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      316,
+      322,
+      514,
+      430
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9205451011657715
+  },
+  {
+    "filename": "598944c5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      346,
+      287,
+      583,
+      438
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.7088236212730408
+  },
+  {
+    "filename": "598acda7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      888,
+      556,
+      940,
+      634
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8544227480888367
+  },
+  {
+    "filename": "598acea9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      264,
+      306,
+      428,
+      452
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8738088607788086
+  },
+  {
+    "filename": "598acf42-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      352,
+      451,
+      568,
+      682
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8642998337745667
+  },
+  {
+    "filename": "598ad140-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      225,
+      311,
+      467,
+      478
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8877207040786743
+  },
+  {
+    "filename": "598c5a87-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      506,
+      286,
+      608,
+      397
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9569467902183533
+  },
+  {
+    "filename": "598c5aab-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      400,
+      203,
+      543,
+      381
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8680240511894226
+  },
+  {
+    "filename": "598c5b82-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      625,
+      446,
+      714,
+      571
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.868061363697052
+  },
+  {
+    "filename": "598c5bab-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      235,
+      514,
+      533,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9455190300941467
+  },
+  {
+    "filename": "598c5c7d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      50,
+      360,
+      331,
+      513
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.7607278227806091
+  },
+  {
+    "filename": "598c5cf4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      382,
+      238,
+      579
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8748794794082642
+  },
+  {
+    "filename": "598c5d10-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      209,
+      236,
+      365,
+      408
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9011609554290771
+  },
+  {
+    "filename": "598c5d5e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      579,
+      380,
+      640,
+      425
+    ],
+    "category": "rodent",
+    "category_id": 99,
+    "conf": 0.8546041250228882
+  },
+  {
+    "filename": "598de827-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      364,
+      199,
+      590
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8668069839477539
+  },
+  {
+    "filename": "598de8e4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      624,
+      224,
+      762,
+      355
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.898816704750061
+  },
+  {
+    "filename": "598de956-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      326,
+      320,
+      409,
+      441
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9573480486869812
+  },
+  {
+    "filename": "598de956-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      906,
+      285,
+      977,
+      374
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9562758803367615
+  },
+  {
+    "filename": "598de9a1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      771,
+      492,
+      997,
+      682
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8589183688163757
+  },
+  {
+    "filename": "598f76a8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      167,
+      395,
+      431,
+      622
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8737095594406128
+  },
+  {
+    "filename": "598f773e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      566,
+      424,
+      784,
+      648
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8788121938705444
+  },
+  {
+    "filename": "599103ef-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      459,
+      387,
+      567,
+      523
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9357720613479614
+  },
+  {
+    "filename": "59910515-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      492,
+      394,
+      745,
+      550
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.9002555012702942
+  },
+  {
+    "filename": "59929061-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      415,
+      195,
+      576
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8780285120010376
+  },
+  {
+    "filename": "599290e0-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      105,
+      372,
+      310,
+      516
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.923835277557373
+  },
+  {
+    "filename": "59929136-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      64,
+      382,
+      348,
+      568
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8809927701950073
+  },
+  {
+    "filename": "59929152-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      951,
+      334,
+      1022,
+      477
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8933364748954773
+  },
+  {
+    "filename": "59941e2b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      538,
+      429,
+      730,
+      543
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8655020594596863
+  },
+  {
+    "filename": "59941f32-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      131,
+      414,
+      277,
+      561
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9208572506904602
+  },
+  {
+    "filename": "59942028-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      503,
+      332,
+      675,
+      446
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9293359518051147
+  },
+  {
+    "filename": "5995ac62-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      523,
+      300,
+      663,
+      541
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8960622549057007
+  },
+  {
+    "filename": "5995ace2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      159,
+      363,
+      316,
+      459
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.932662308216095
+  },
+  {
+    "filename": "5995adae-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      154,
+      522,
+      492,
+      708
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.865325927734375
+  },
+  {
+    "filename": "5995adef-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      299,
+      543,
+      428,
+      668
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9491252303123474
+  },
+  {
+    "filename": "5995aee3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      454,
+      357,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9535446763038635
+  },
+  {
+    "filename": "5995aee3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      1,
+      543,
+      394,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9302979111671448
+  },
+  {
+    "filename": "59973d1f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      378,
+      305,
+      597,
+      410
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9366871118545532
+  },
+  {
+    "filename": "59973dc6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      503,
+      671,
+      646,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9490200877189636
+  },
+  {
+    "filename": "59973e29-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      410,
+      309,
+      577,
+      427
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9418518543243408
+  },
+  {
+    "filename": "59973e34-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      394,
+      225,
+      603
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8661086559295654
+  },
+  {
+    "filename": "59973ed8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      444,
+      106,
+      645
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8857108950614929
+  },
+  {
+    "filename": "5998cc1b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      374,
+      343,
+      547,
+      441
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9021338224411011
+  },
+  {
+    "filename": "5998cc1b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      419,
+      299,
+      543,
+      392
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8175023794174194
+  },
+  {
+    "filename": "5998ce85-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      509,
+      281,
+      678,
+      386
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9274163842201233
+  },
+  {
+    "filename": "5998ce94-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      27,
+      416,
+      116,
+      507
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9205511808395386
+  },
+  {
+    "filename": "599a59c9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      487,
+      344,
+      701,
+      462
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.884024441242218
+  },
+  {
+    "filename": "599a5a6a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      80,
+      443,
+      452,
+      639
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.87628173828125
+  },
+  {
+    "filename": "599a5b44-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      282,
+      326,
+      442,
+      446
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9293912053108215
+  },
+  {
+    "filename": "599be705-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      233,
+      347,
+      402,
+      449
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9257481694221497
+  },
+  {
+    "filename": "599be797-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      333,
+      135,
+      504
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8610755205154419
+  },
+  {
+    "filename": "599be7db-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      422,
+      195,
+      606
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8598161339759827
+  },
+  {
+    "filename": "599d7b4e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      329,
+      553,
+      599,
+      712
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.921744704246521
+  },
+  {
+    "filename": "599d7dda-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      584,
+      385,
+      664,
+      525
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9461736083030701
+  },
+  {
+    "filename": "599d7df7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      846,
+      536,
+      980,
+      706
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8447381258010864
+  },
+  {
+    "filename": "599d7e58-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      627,
+      539,
+      910,
+      746
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8610892295837402
+  },
+  {
+    "filename": "599fbe2d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      519,
+      166,
+      726
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.5960638523101807
+  },
+  {
+    "filename": "599fbf5d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      394,
+      509,
+      510,
+      605
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9008709192276001
+  },
+  {
+    "filename": "599fbfcf-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      1,
+      406,
+      252,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9377278089523315
+  },
+  {
+    "filename": "599fbff3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      141,
+      334,
+      385,
+      490
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8673810958862305
+  },
+  {
+    "filename": "599fc10e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      655,
+      395,
+      795,
+      606
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8655111193656921
+  },
+  {
+    "filename": "59a179af-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      576,
+      339,
+      748,
+      458
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9329767823219299
+  },
+  {
+    "filename": "59a17b21-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      264,
+      452,
+      457,
+      746
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8795552849769592
+  },
+  {
+    "filename": "59a17c68-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      200,
+      379,
+      356,
+      672
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8862331509590149
+  },
+  {
+    "filename": "59a17c6e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      424,
+      589,
+      529,
+      746
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9150385856628418
+  },
+  {
+    "filename": "59a30a0c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      600,
+      530,
+      862,
+      682
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8453162908554077
+  },
+  {
+    "filename": "59a30a34-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      666,
+      279,
+      793,
+      371
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9320970773696899
+  },
+  {
+    "filename": "59a30c67-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      15,
+      382,
+      157,
+      462
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.7869555950164795
+  },
+  {
+    "filename": "59a30dca-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      263,
+      516,
+      457,
+      674
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9270702600479126
+  },
+  {
+    "filename": "59a49a60-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      707,
+      332,
+      978,
+      434
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9257237911224365
+  },
+  {
+    "filename": "59a49af8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      519,
+      532,
+      685,
+      620
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9479690790176392
+  },
+  {
+    "filename": "59a49d15-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      484,
+      455,
+      639,
+      683
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8705864548683167
+  },
+  {
+    "filename": "59a629aa-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      420,
+      182,
+      594
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.919671893119812
+  },
+  {
+    "filename": "59a62b1d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      382,
+      337,
+      529,
+      436
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9262472987174988
+  },
+  {
+    "filename": "59a7bc15-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      250,
+      526,
+      486,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.938488781452179
+  },
+  {
+    "filename": "59a7bc7b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      495,
+      304,
+      670,
+      417
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.921870231628418
+  },
+  {
+    "filename": "59a94ac8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      271,
+      556,
+      595,
+      746
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9131280779838562
+  },
+  {
+    "filename": "59a94b13-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      483,
+      313,
+      582,
+      406
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9463580846786499
+  },
+  {
+    "filename": "59a94b4e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      372,
+      296,
+      570,
+      444
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8825438022613525
+  },
+  {
+    "filename": "59a94bf4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      321,
+      330,
+      494,
+      475
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8765985369682312
+  },
+  {
+    "filename": "59a94c74-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      319,
+      330,
+      538,
+      449
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9279851317405701
+  },
+  {
+    "filename": "59a94dd5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      670,
+      515,
+      801,
+      593
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9289980530738831
+  },
+  {
+    "filename": "59a94df9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      485,
+      277,
+      639,
+      386
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9326182007789612
+  },
+  {
+    "filename": "59aada4f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      423,
+      296,
+      543,
+      401
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8961329460144043
+  },
+  {
+    "filename": "59aada4f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      753,
+      324,
+      827,
+      420
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9114185571670532
+  },
+  {
+    "filename": "59aada7a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      439,
+      75,
+      568
+    ],
+    "category": "rodent",
+    "category_id": 99,
+    "conf": 0.8467446565628052
+  },
+  {
+    "filename": "59aadad9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      487,
+      394,
+      565,
+      497
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9464011192321777
+  },
+  {
+    "filename": "59aadc48-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      656,
+      257,
+      805,
+      356
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9141852855682373
+  },
+  {
+    "filename": "59ac6b99-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      333,
+      358,
+      460,
+      449
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8900744318962097
+  },
+  {
+    "filename": "59ac6c7d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      45,
+      448,
+      245,
+      746
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8585490584373474
+  },
+  {
+    "filename": "59adfbc9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      384,
+      134,
+      561
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8910639882087708
+  },
+  {
+    "filename": "59af9736-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      492,
+      332,
+      612,
+      446
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.8292120099067688
+  },
+  {
+    "filename": "59af9858-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      134,
+      351,
+      240,
+      461
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.8978511691093445
+  },
+  {
+    "filename": "59af9860-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      395,
+      78,
+      557
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9053533673286438
+  },
+  {
+    "filename": "59af990f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      348,
+      322,
+      503,
+      426
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9233667850494385
+  },
+  {
+    "filename": "59b131cf-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      415,
+      521,
+      582,
+      640
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.8779298067092896
+  },
+  {
+    "filename": "59b131f4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      351,
+      380,
+      535,
+      490
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8804152607917786
+  },
+  {
+    "filename": "59b2e98b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      234,
+      306,
+      439,
+      471
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8922414779663086
+  },
+  {
+    "filename": "59b2eaa4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      354,
+      531,
+      479,
+      644
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.921231746673584
+  },
+  {
+    "filename": "59b2eb2c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      455,
+      297,
+      622,
+      396
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9367642998695374
+  },
+  {
+    "filename": "59b2eb4e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      563,
+      280,
+      737,
+      399
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8973816633224487
+  },
+  {
+    "filename": "59b48358-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      405,
+      115,
+      572
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9045800566673279
+  },
+  {
+    "filename": "59b48517-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      545,
+      332,
+      652,
+      454
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9345003962516785
+  },
+  {
+    "filename": "59b4853b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      73,
+      459,
+      152,
+      532
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8891613483428955
+  },
+  {
+    "filename": "59b615de-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      537,
+      322,
+      710,
+      429
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9292569756507874
+  },
+  {
+    "filename": "59b61630-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      315,
+      312,
+      507,
+      419
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.927008867263794
+  },
+  {
+    "filename": "59b7a620-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      51,
+      530,
+      220,
+      633
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9226256012916565
+  },
+  {
+    "filename": "59b7a844-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      196,
+      331,
+      434,
+      485
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8747994899749756
+  },
+  {
+    "filename": "59b7a906-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      301,
+      241,
+      474,
+      443
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8797286748886108
+  },
+  {
+    "filename": "59b7a92e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      134,
+      326,
+      370,
+      528
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8877713084220886
+  },
+  {
+    "filename": "59b937f8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      798,
+      414,
+      910,
+      559
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9302355051040649
+  },
+  {
+    "filename": "59b9395f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      274,
+      343,
+      456,
+      460
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9304941892623901
+  },
+  {
+    "filename": "59b9399e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      407,
+      61,
+      501
+    ],
+    "category": "rodent",
+    "category_id": 99,
+    "conf": 0.8497861623764038
+  },
+  {
+    "filename": "59b93a27-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      676,
+      217,
+      771,
+      342
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8717777132987976
+  },
+  {
+    "filename": "59b93a34-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      371,
+      265,
+      468,
+      389
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.91380774974823
+  },
+  {
+    "filename": "59bac7e4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      553,
+      484,
+      665,
+      624
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8986319303512573
+  },
+  {
+    "filename": "59bac856-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      363,
+      350,
+      533,
+      460
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9268444776535034
+  },
+  {
+    "filename": "59bac8b2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      184,
+      306,
+      402,
+      504
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8810791969299316
+  },
+  {
+    "filename": "59baca86-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      31,
+      401,
+      191,
+      537
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9244450926780701
+  },
+  {
+    "filename": "59bacaac-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      269,
+      55,
+      704,
+      539
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8720511794090271
+  },
+  {
+    "filename": "59bca398-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      385,
+      262,
+      524,
+      523
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8590176701545715
+  },
+  {
+    "filename": "59bca4a5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      253,
+      226,
+      524
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.879638671875
+  },
+  {
+    "filename": "59bca51c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      797,
+      400,
+      1023,
+      569
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8964341282844543
+  },
+  {
+    "filename": "59bca567-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      128,
+      349,
+      331,
+      460
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.921701192855835
+  },
+  {
+    "filename": "59bca659-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      682,
+      375,
+      877,
+      517
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8981746435165405
+  },
+  {
+    "filename": "59bca6eb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      530,
+      492,
+      698,
+      674
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8780015707015991
+  },
+  {
+    "filename": "59be3eed-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      142,
+      307,
+      318,
+      418
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9334719181060791
+  },
+  {
+    "filename": "59be3eed-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      237,
+      464,
+      422,
+      651
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.8395387530326843
+  },
+  {
+    "filename": "59be3f36-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      486,
+      288,
+      644,
+      388
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9308541417121887
+  },
+  {
+    "filename": "59be40c5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      534,
+      301,
+      612,
+      387
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9487496018409729
+  },
+  {
+    "filename": "59be417b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      461,
+      343,
+      560,
+      412
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.941684901714325
+  },
+  {
+    "filename": "59be41b6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      465,
+      301,
+      569,
+      407
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9329251050949097
+  },
+  {
+    "filename": "59be41e4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      436,
+      89,
+      559
+    ],
+    "category": "rodent",
+    "category_id": 99,
+    "conf": 0.8536446690559387
+  },
+  {
+    "filename": "59bfdf47-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      425,
+      337,
+      529,
+      442
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9495628476142883
+  },
+  {
+    "filename": "59c1774d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      461,
+      300,
+      689,
+      405
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9303083419799805
+  },
+  {
+    "filename": "59c1774f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      67,
+      506,
+      260,
+      601
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9317865967750549
+  },
+  {
+    "filename": "59c17758-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      104,
+      362,
+      251,
+      493
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9231621026992798
+  },
+  {
+    "filename": "59c17871-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      876,
+      276,
+      965,
+      344
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9514031410217285
+  },
+  {
+    "filename": "59c178ce-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      99,
+      483,
+      338,
+      632
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8773766756057739
+  },
+  {
+    "filename": "59c1795e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      338,
+      201,
+      515,
+      386
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.7728829979896545
+  },
+  {
+    "filename": "59c31bb3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      132,
+      400,
+      268,
+      601
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.7525520324707031
+  },
+  {
+    "filename": "59c31bb3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      590,
+      280,
+      667,
+      335
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.7351508140563965
+  },
+  {
+    "filename": "59c4bebc-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      829,
+      529,
+      953,
+      625
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9406607151031494
+  },
+  {
+    "filename": "59c4bebc-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      524,
+      476,
+      615,
+      600
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9390203952789307
+  },
+  {
+    "filename": "59c4bee4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      584,
+      316,
+      812,
+      422
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.930261492729187
+  },
+  {
+    "filename": "59c4c024-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      389,
+      218,
+      529
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.925736129283905
+  },
+  {
+    "filename": "59c4c149-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      22,
+      250,
+      190,
+      485
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8745375871658325
+  },
+  {
+    "filename": "59c4c190-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      608,
+      600,
+      766,
+      741
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8993139266967773
+  },
+  {
+    "filename": "59c4c1fa-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      392,
+      138,
+      565
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8904891610145569
+  },
+  {
+    "filename": "59c8031d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      205,
+      379,
+      376,
+      510
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.92973393201828
+  },
+  {
+    "filename": "59c80430-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      189,
+      354,
+      387,
+      505
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8641137480735779
+  },
+  {
+    "filename": "59c80493-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      476,
+      322,
+      674,
+      446
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9376461505889893
+  },
+  {
+    "filename": "59c80522-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      509,
+      437,
+      714,
+      668
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.859606921672821
+  },
+  {
+    "filename": "59c8055e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      598,
+      329,
+      791,
+      456
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8225599527359009
+  },
+  {
+    "filename": "59c80588-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      752,
+      276,
+      934,
+      406
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8956127166748047
+  },
+  {
+    "filename": "59c99c41-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      658,
+      312,
+      782,
+      406
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9276112914085388
+  },
+  {
+    "filename": "59c99ce2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      199,
+      260,
+      356,
+      509
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8777368068695068
+  },
+  {
+    "filename": "59cb36b5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      506,
+      474,
+      639,
+      680
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8837476968765259
+  },
+  {
+    "filename": "59cb36db-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      592,
+      80,
+      746
+    ],
+    "category": "rodent",
+    "category_id": 99,
+    "conf": 0.8336548805236816
+  },
+  {
+    "filename": "59cb36fb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      234,
+      510,
+      382,
+      601
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9216957092285156
+  },
+  {
+    "filename": "59cb37c7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      408,
+      538,
+      765,
+      745
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8599631190299988
+  },
+  {
+    "filename": "59cb3975-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      292,
+      360,
+      443,
+      439
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9279400706291199
+  },
+  {
+    "filename": "59cb39e7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      399,
+      253,
+      547,
+      491
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8625355958938599
+  },
+  {
+    "filename": "59cccffb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      121,
+      315,
+      253,
+      427
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8894444704055786
+  },
+  {
+    "filename": "59ccd002-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      117,
+      305,
+      395,
+      438
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8831034898757935
+  },
+  {
+    "filename": "59ccd074-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      666,
+      379,
+      860,
+      515
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8867835402488708
+  },
+  {
+    "filename": "59cf45d7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      40,
+      370,
+      232,
+      486
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9170169830322266
+  },
+  {
+    "filename": "59cf464d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      158,
+      384,
+      391,
+      527
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9246388077735901
+  },
+  {
+    "filename": "59cf46a1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      362,
+      204,
+      501
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9238772988319397
+  },
+  {
+    "filename": "59cf47e3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      254,
+      373,
+      524,
+      537
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8722848296165466
+  },
+  {
+    "filename": "59d0e42b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      766,
+      366,
+      905,
+      494
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.899413526058197
+  },
+  {
+    "filename": "59d27cc3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      266,
+      391,
+      389,
+      483
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9555016756057739
+  },
+  {
+    "filename": "59d27d42-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      377,
+      277,
+      523,
+      505
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8677384257316589
+  },
+  {
+    "filename": "59d27d77-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      97,
+      423,
+      195,
+      515
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.947717010974884
+  },
+  {
+    "filename": "59d27e06-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      441,
+      388,
+      517,
+      502
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9578337073326111
+  },
+  {
+    "filename": "59d4183c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      139,
+      373,
+      326,
+      495
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9247180223464966
+  },
+  {
+    "filename": "59d41893-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      4,
+      359,
+      166,
+      485
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8718658089637756
+  },
+  {
+    "filename": "59d419be-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      611,
+      359,
+      820,
+      487
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8809489011764526
+  },
+  {
+    "filename": "59d41acb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      595,
+      331,
+      707,
+      469
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8646137714385986
+  },
+  {
+    "filename": "59d41acb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      492,
+      179,
+      592,
+      308
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.948803722858429
+  },
+  {
+    "filename": "59d5b55f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      162,
+      517,
+      408,
+      627
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9335908889770508
+  },
+  {
+    "filename": "59d5b60b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      140,
+      623,
+      487,
+      746
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.7369856238365173
+  },
+  {
+    "filename": "59d5b61a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      490,
+      284,
+      687,
+      405
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9221797585487366
+  },
+  {
+    "filename": "59d750b9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      66,
+      389,
+      348,
+      564
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8702499270439148
+  },
+  {
+    "filename": "59d750fd-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      564,
+      281,
+      655,
+      358
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9523232579231262
+  },
+  {
+    "filename": "59d75388-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      671,
+      514,
+      964,
+      743
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.868913471698761
+  },
+  {
+    "filename": "59d8ebb5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      149,
+      369,
+      365,
+      510
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9272388815879822
+  },
+  {
+    "filename": "59d8ebf8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      583,
+      410,
+      694,
+      551
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9292749762535095
+  },
+  {
+    "filename": "59d8ec82-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      523,
+      380,
+      654,
+      576
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9013828039169312
+  },
+  {
+    "filename": "59da8bc8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      205,
+      349,
+      416,
+      446
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9369918704032898
+  },
+  {
+    "filename": "59dc2628-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      376,
+      547,
+      719,
+      745
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.881866991519928
+  },
+  {
+    "filename": "59dc263c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      812,
+      413,
+      1022,
+      607
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8961818218231201
+  },
+  {
+    "filename": "59dc2754-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      288,
+      226,
+      441,
+      373
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8676589131355286
+  },
+  {
+    "filename": "59ddc22b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      765,
+      355,
+      805,
+      390
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.7387974262237549
+  },
+  {
+    "filename": "59ddc2c0-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      356,
+      296,
+      425,
+      379
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.5760796070098877
+  },
+  {
+    "filename": "59df5b68-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      488,
+      565,
+      664,
+      668
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9250649213790894
+  },
+  {
+    "filename": "59df5e4f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      581,
+      336,
+      703,
+      412
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9395902156829834
+  },
+  {
+    "filename": "59e1020c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      427,
+      308,
+      625,
+      409
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9312618970870972
+  },
+  {
+    "filename": "59e104b0-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      345,
+      531,
+      606,
+      700
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8662930727005005
+  },
+  {
+    "filename": "59e2a2f3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      448,
+      399,
+      667,
+      520
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8570944666862488
+  },
+  {
+    "filename": "59e2a3c0-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      503,
+      366,
+      677,
+      484
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9281467795372009
+  },
+  {
+    "filename": "59e2a3c8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      141,
+      315,
+      406,
+      457
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.630052924156189
+  },
+  {
+    "filename": "59e43f76-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      356,
+      322,
+      474,
+      416
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.8741955161094666
+  },
+  {
+    "filename": "59e4418f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      355,
+      565,
+      463,
+      636
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8590564727783203
+  },
+  {
+    "filename": "59e5de4a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      346,
+      284,
+      400,
+      356
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8966102004051208
+  },
+  {
+    "filename": "59e5df88-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      456,
+      104,
+      610
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.912349283695221
+  },
+  {
+    "filename": "59e5dff1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      371,
+      334,
+      507,
+      437
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9197264909744263
+  },
+  {
+    "filename": "59e5e0c9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      438,
+      230,
+      588
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.918630838394165
+  },
+  {
+    "filename": "59e77be6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      720,
+      209,
+      857,
+      311
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8926333785057068
+  },
+  {
+    "filename": "59e77ef7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      392,
+      340,
+      513,
+      449
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9260435104370117
+  },
+  {
+    "filename": "59e77ef7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      901,
+      276,
+      993,
+      385
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.6409892439842224
+  },
+  {
+    "filename": "59e91a1a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      92,
+      375,
+      318,
+      491
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.928071916103363
+  },
+  {
+    "filename": "59e91a20-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      201,
+      355,
+      454,
+      496
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9274939894676208
+  },
+  {
+    "filename": "59e91a96-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      115,
+      337,
+      364,
+      453
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9257925152778625
+  },
+  {
+    "filename": "59e91ab6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      482,
+      245,
+      733,
+      422
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8613858819007874
+  },
+  {
+    "filename": "59eab855-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      295,
+      420,
+      527,
+      607
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8547878265380859
+  },
+  {
+    "filename": "59eab8ac-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      407,
+      328,
+      599,
+      474
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8715395331382751
+  },
+  {
+    "filename": "59ec52a6-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      16,
+      417,
+      272,
+      556
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8581307530403137
+  },
+  {
+    "filename": "59ec52bb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      830,
+      260,
+      998,
+      375
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8784763216972351
+  },
+  {
+    "filename": "59ec5320-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      227,
+      355,
+      478,
+      540
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8648034930229187
+  },
+  {
+    "filename": "59ec5461-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      217,
+      379,
+      371,
+      487
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.873002827167511
+  },
+  {
+    "filename": "59edf243-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      700,
+      252,
+      799,
+      362
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9238131046295166
+  },
+  {
+    "filename": "59edf26b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      419,
+      331,
+      533,
+      447
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9365723729133606
+  },
+  {
+    "filename": "59ef8b40-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      505,
+      585,
+      763,
+      746
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9100473523139954
+  },
+  {
+    "filename": "59ef8c9f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      299,
+      569,
+      561,
+      746
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9389314651489258
+  },
+  {
+    "filename": "59f12b90-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      396,
+      341,
+      568,
+      444
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9273617267608643
+  },
+  {
+    "filename": "59f2c27c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      433,
+      167,
+      601
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8879497051239014
+  },
+  {
+    "filename": "59f2c384-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      432,
+      321,
+      539,
+      461
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9226816296577454
+  },
+  {
+    "filename": "59f2c3e3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      468,
+      301,
+      684,
+      414
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9272155165672302
+  },
+  {
+    "filename": "59f2c418-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      268,
+      286,
+      362,
+      394
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9486272931098938
+  },
+  {
+    "filename": "59f2c418-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      917,
+      396,
+      982,
+      454
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8872323632240295
+  },
+  {
+    "filename": "59f2c464-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      170,
+      352,
+      351,
+      442
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9328676462173462
+  },
+  {
+    "filename": "59f2c531-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      137,
+      360,
+      322,
+      464
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9353822469711304
+  },
+  {
+    "filename": "59f2c57b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      329,
+      347,
+      529,
+      462
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.930579662322998
+  },
+  {
+    "filename": "59f460ee-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      178,
+      545,
+      248,
+      623
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9540774822235107
+  },
+  {
+    "filename": "59f461f5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      206,
+      340,
+      412,
+      465
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9243337512016296
+  },
+  {
+    "filename": "59f46287-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      543,
+      160,
+      710
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8776248097419739
+  },
+  {
+    "filename": "59f462ac-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      28,
+      397,
+      227,
+      536
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.928051769733429
+  },
+  {
+    "filename": "59f46351-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      222,
+      348,
+      431,
+      499
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8771569728851318
+  },
+  {
+    "filename": "59f46351-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      452,
+      333,
+      536,
+      434
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8652454018592834
+  },
+  {
+    "filename": "59f5fcfc-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      452,
+      281,
+      614,
+      412
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9026771783828735
+  },
+  {
+    "filename": "59f7991a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      305,
+      317,
+      524,
+      423
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9270789623260498
+  },
+  {
+    "filename": "59f79934-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      283,
+      357,
+      498,
+      465
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9260382056236267
+  },
+  {
+    "filename": "59f79935-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      281,
+      387,
+      397,
+      478
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9478147625923157
+  },
+  {
+    "filename": "59f7995b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      363,
+      360,
+      553,
+      447
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9286649227142334
+  },
+  {
+    "filename": "59f79a79-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      525,
+      275,
+      699,
+      393
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8670832514762878
+  },
+  {
+    "filename": "59f79afa-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      85,
+      340,
+      293,
+      460
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9292894005775452
+  },
+  {
+    "filename": "59f79b03-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      636,
+      463,
+      740,
+      553
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9400475025177002
+  },
+  {
+    "filename": "59f79bcd-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      89,
+      465,
+      201,
+      585
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9504255652427673
+  },
+  {
+    "filename": "59f945c7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      436,
+      332,
+      547,
+      420
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8618738055229187
+  },
+  {
+    "filename": "59f945c7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      699,
+      328,
+      752,
+      382
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.833552896976471
+  },
+  {
+    "filename": "59f945c7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      237,
+      362,
+      290,
+      396
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8700818419456482
+  },
+  {
+    "filename": "59f945c7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      573,
+      378,
+      610,
+      412
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.617348313331604
+  },
+  {
+    "filename": "59f945c7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      667,
+      349,
+      705,
+      393
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8661684989929199
+  },
+  {
+    "filename": "59f94704-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      560,
+      315,
+      701,
+      426
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9332404136657715
+  },
+  {
+    "filename": "59f9477c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      495,
+      482,
+      659,
+      617
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.936793863773346
+  },
+  {
+    "filename": "59f947b9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      497,
+      281,
+      686,
+      718
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8611940741539001
+  },
+  {
+    "filename": "59fae4ad-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      855,
+      259,
+      992,
+      385
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8783903121948242
+  },
+  {
+    "filename": "59fae514-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      444,
+      233,
+      533,
+      333
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.9046831130981445
+  },
+  {
+    "filename": "59fae594-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      324,
+      427,
+      590,
+      600
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.787467896938324
+  },
+  {
+    "filename": "59fc7cd3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      470,
+      306,
+      654,
+      411
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.939344048500061
+  },
+  {
+    "filename": "59fc7ddb-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      791,
+      402,
+      873,
+      479
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.6633003354072571
+  },
+  {
+    "filename": "59fe2242-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      637,
+      328,
+      795,
+      440
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9493176937103271
+  },
+  {
+    "filename": "59fe22e2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      127,
+      407,
+      308,
+      517
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8648354411125183
+  },
+  {
+    "filename": "59fe22f9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      390,
+      87,
+      478
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9201632738113403
+  },
+  {
+    "filename": "59fe232d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      858,
+      419,
+      920,
+      458
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.6135320067405701
+  },
+  {
+    "filename": "59fe23af-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      306,
+      535,
+      581,
+      692
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9251569509506226
+  },
+  {
+    "filename": "59ffba37-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      458,
+      553,
+      649,
+      746
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.889752209186554
+  },
+  {
+    "filename": "59ffba48-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      677,
+      323,
+      760,
+      401
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9398496150970459
+  },
+  {
+    "filename": "59ffbab4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      543,
+      311,
+      754,
+      475
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8862303495407104
+  },
+  {
+    "filename": "59ffbc55-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      430,
+      321,
+      542,
+      471
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9273229837417603
+  },
+  {
+    "filename": "59ffbd42-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      242,
+      456,
+      482,
+      685
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8614988327026367
+  },
+  {
+    "filename": "5a015b80-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      105,
+      338,
+      349,
+      563
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9450634121894836
+  },
+  {
+    "filename": "5a015c8b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      252,
+      167,
+      351,
+      341
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8746988773345947
+  },
+  {
+    "filename": "5a015e5e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      357,
+      282,
+      547,
+      427
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8943478465080261
+  },
+  {
+    "filename": "5a02f982-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      210,
+      316,
+      292,
+      412
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9548890590667725
+  },
+  {
+    "filename": "5a02f999-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      301,
+      354,
+      498,
+      462
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9255298376083374
+  },
+  {
+    "filename": "5a02faa7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      756,
+      399,
+      903,
+      505
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8819993734359741
+  },
+  {
+    "filename": "5a02fb61-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      414,
+      368,
+      558,
+      636
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8909420371055603
+  },
+  {
+    "filename": "5a02fc10-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      66,
+      414,
+      186,
+      505
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.949026882648468
+  },
+  {
+    "filename": "5a02fc1b-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      457,
+      305,
+      618,
+      412
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9270423650741577
+  },
+  {
+    "filename": "5a0495a1-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      442,
+      155,
+      589
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.923724889755249
+  },
+  {
+    "filename": "5a049631-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      615,
+      380,
+      847,
+      496
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9247368574142456
+  },
+  {
+    "filename": "5a04965c-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      178,
+      390,
+      301,
+      483
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9524074792861938
+  },
+  {
+    "filename": "5a063220-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      315,
+      198,
+      506
+    ],
+    "category": "skunk",
+    "category_id": 7,
+    "conf": 0.7782491445541382
+  },
+  {
+    "filename": "5a096b46-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      265,
+      332,
+      468,
+      454
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.92929607629776
+  },
+  {
+    "filename": "5a0c9c48-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      164,
+      353,
+      406,
+      470
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9277722835540771
+  },
+  {
+    "filename": "5a0c9c84-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      407,
+      314,
+      575,
+      428
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9327086210250854
+  },
+  {
+    "filename": "5a0e34de-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      259,
+      277,
+      490,
+      398
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.850225567817688
+  },
+  {
+    "filename": "5a0e35e8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      430,
+      260,
+      629,
+      408
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8816405534744263
+  },
+  {
+    "filename": "5a0e35fd-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      216,
+      274,
+      471,
+      495
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8818603754043579
+  },
+  {
+    "filename": "5a0e36a4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      452,
+      302,
+      721,
+      438
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8795855045318604
+  },
+  {
+    "filename": "5a0e3715-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      108,
+      371,
+      327,
+      496
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9221755862236023
+  },
+  {
+    "filename": "5a0e3790-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      404,
+      108,
+      570
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.9021079540252686
+  },
+  {
+    "filename": "5a0e37c2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      344,
+      391,
+      530,
+      503
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8728926777839661
+  },
+  {
+    "filename": "5a0e3812-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      516,
+      515,
+      892,
+      746
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8543701767921448
+  },
+  {
+    "filename": "5a0e3812-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      422,
+      314,
+      663,
+      727
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.849699854850769
+  },
+  {
+    "filename": "5a0e3812-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      423,
+      314,
+      834,
+      745
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8543176054954529
+  },
+  {
+    "filename": "5a0e3824-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      785,
+      367,
+      929,
+      499
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9281472563743591
+  },
+  {
+    "filename": "5a0fceda-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      500,
+      265,
+      672,
+      430
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8730031847953796
+  },
+  {
+    "filename": "5a0fd030-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      71,
+      507,
+      321,
+      688
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9240230321884155
+  },
+  {
+    "filename": "5a0fd05a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      315,
+      221,
+      507,
+      417
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8580234050750732
+  },
+  {
+    "filename": "5a0fd0af-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      254,
+      284,
+      359,
+      426
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8793099522590637
+  },
+  {
+    "filename": "5a0fd215-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      541,
+      418,
+      725,
+      544
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8716847896575928
+  },
+  {
+    "filename": "5a116c26-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      917,
+      342,
+      1023,
+      450
+    ],
+    "category": "coyote",
+    "category_id": 9,
+    "conf": 0.9052181839942932
+  },
+  {
+    "filename": "5a116e5f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      521,
+      579,
+      644,
+      746
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.8929662704467773
+  },
+  {
+    "filename": "5a13095e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      728,
+      585,
+      797,
+      653
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.801354706287384
+  },
+  {
+    "filename": "5a13099f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      447,
+      524,
+      599,
+      721
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8602888584136963
+  },
+  {
+    "filename": "5a14a38e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      695,
+      531,
+      894,
+      694
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8657049536705017
+  },
+  {
+    "filename": "5a14a524-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      408,
+      298,
+      637,
+      442
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8788114190101624
+  },
+  {
+    "filename": "5a14a544-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      473,
+      619,
+      656,
+      746
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8719304800033569
+  },
+  {
+    "filename": "5a14a544-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      536,
+      617,
+      658,
+      744
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.6856725811958313
+  },
+  {
+    "filename": "5a14a5c9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      56,
+      366,
+      184,
+      462
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9281496405601501
+  },
+  {
+    "filename": "5a163ee3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      444,
+      323,
+      549,
+      409
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9421401619911194
+  },
+  {
+    "filename": "5a163f17-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      420,
+      171,
+      626
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9140905141830444
+  },
+  {
+    "filename": "5a16418f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      431,
+      462,
+      678,
+      622
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.934477686882019
+  },
+  {
+    "filename": "5a164204-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      830,
+      395,
+      1020,
+      533
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.9121113419532776
+  },
+  {
+    "filename": "5a17e045-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      83,
+      494,
+      369,
+      720
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8762240409851074
+  },
+  {
+    "filename": "5a1979e9-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      153,
+      433,
+      383,
+      706
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9426239728927612
+  },
+  {
+    "filename": "5a197abe-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      203,
+      511,
+      311,
+      691
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9232852458953857
+  },
+  {
+    "filename": "5a197b99-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      171,
+      347,
+      285,
+      466
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9297627806663513
+  },
+  {
+    "filename": "5a197b99-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      355,
+      70,
+      452
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.7722901701927185
+  },
+  {
+    "filename": "5a1b158d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      242,
+      347,
+      440,
+      476
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.92771315574646
+  },
+  {
+    "filename": "5a1cb161-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      494,
+      238,
+      587,
+      351
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9275864958763123
+  },
+  {
+    "filename": "5a1cb26e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      227,
+      183,
+      507,
+      331
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.849613606929779
+  },
+  {
+    "filename": "5a1e4fa8-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      479,
+      291,
+      654,
+      401
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9323320388793945
+  },
+  {
+    "filename": "5a1e4fd2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      268,
+      371,
+      372,
+      460
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9496000409126282
+  },
+  {
+    "filename": "5a1e51a2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      563,
+      302,
+      699,
+      391
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9399867057800293
+  },
+  {
+    "filename": "5a1fe576-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      316,
+      309,
+      548,
+      409
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9257221221923828
+  },
+  {
+    "filename": "5a1fe5f3-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      413,
+      490,
+      650,
+      654
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9249517917633057
+  },
+  {
+    "filename": "5a1fe696-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      165,
+      492,
+      409,
+      670
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8615479469299316
+  },
+  {
+    "filename": "5a1fe696-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      862,
+      373,
+      973,
+      494
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8690118789672852
+  },
+  {
+    "filename": "5a1fe89f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      532,
+      176,
+      681
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8562450408935547
+  },
+  {
+    "filename": "5a2176e5-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      168,
+      356,
+      377,
+      472
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9209694862365723
+  },
+  {
+    "filename": "5a2177de-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      877,
+      351,
+      1023,
+      507
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8898286819458008
+  },
+  {
+    "filename": "5a21781a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      407,
+      462,
+      659,
+      649
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8606064915657043
+  },
+  {
+    "filename": "5a21781a-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      893,
+      367,
+      1014,
+      463
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8651447892189026
+  },
+  {
+    "filename": "5a217909-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      807,
+      553,
+      977,
+      702
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.864601194858551
+  },
+  {
+    "filename": "5a230e96-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      560,
+      315,
+      778,
+      417
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9360827207565308
+  },
+  {
+    "filename": "5a230f60-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      672,
+      293,
+      914,
+      406
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9323045611381531
+  },
+  {
+    "filename": "5a230f74-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      869,
+      248,
+      988,
+      312
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9539417624473572
+  },
+  {
+    "filename": "5a230f74-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      655,
+      295,
+      749,
+      378
+    ],
+    "category": "rabbit",
+    "category_id": 10,
+    "conf": 0.9439039826393127
+  },
+  {
+    "filename": "5a231011-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      86,
+      522,
+      331,
+      746
+    ],
+    "category": "cat",
+    "category_id": 16,
+    "conf": 0.8588888645172119
+  },
+  {
+    "filename": "5a23108f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      37,
+      405,
+      218,
+      544
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8625739812850952
+  },
+  {
+    "filename": "5a23108f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      192,
+      377,
+      318,
+      464
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8519880771636963
+  },
+  {
+    "filename": "5a23108f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      525,
+      332,
+      632,
+      407
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8637987375259399
+  },
+  {
+    "filename": "5a23108f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      431,
+      333,
+      539,
+      413
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8470807671546936
+  },
+  {
+    "filename": "5a23108f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      626,
+      331,
+      721,
+      403
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8588560223579407
+  },
+  {
+    "filename": "5a23108f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      700,
+      327,
+      767,
+      404
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.847207248210907
+  },
+  {
+    "filename": "5a23108f-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      707,
+      325,
+      780,
+      376
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.85325026512146
+  },
+  {
+    "filename": "5a231150-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      497,
+      292,
+      690,
+      402
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9206339120864868
+  },
+  {
+    "filename": "5a2311d4-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      251,
+      364,
+      461,
+      474
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9258468747138977
+  },
+  {
+    "filename": "5a27d882-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      658,
+      515,
+      892,
+      675
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8636152744293213
+  },
+  {
+    "filename": "5a27d9cf-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      546,
+      261,
+      694,
+      560
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8698912262916565
+  },
+  {
+    "filename": "5a27db98-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      571,
+      371,
+      654,
+      464
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8932621479034424
+  },
+  {
+    "filename": "5a2963e2-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      481,
+      414,
+      654,
+      518
+    ],
+    "category": "squirrel",
+    "category_id": 5,
+    "conf": 0.8367010951042175
+  },
+  {
+    "filename": "5a29646d-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      144,
+      550,
+      485,
+      732
+    ],
+    "category": "bobcat",
+    "category_id": 6,
+    "conf": 0.8511916995048523
+  },
+  {
+    "filename": "5a2964b7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      347,
+      400,
+      587,
+      600
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8753005862236023
+  },
+  {
+    "filename": "5a2964b7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      51,
+      248,
+      178,
+      426
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8584567308425903
+  },
+  {
+    "filename": "5a2af5fe-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      36,
+      432,
+      220,
+      579
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9243336319923401
+  },
+  {
+    "filename": "5a2af65e-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      822,
+      304,
+      966,
+      420
+    ],
+    "category": "dog",
+    "category_id": 8,
+    "conf": 0.8715092539787292
+  },
+  {
+    "filename": "5a2c8412-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      614,
+      329,
+      868,
+      453
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9338091015815735
+  },
+  {
+    "filename": "5a2c8637-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      318,
+      302,
+      502,
+      599
+    ],
+    "category": "raccoon",
+    "category_id": 3,
+    "conf": 0.8639166951179504
+  },
+  {
+    "filename": "5a2c86ee-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      611,
+      270,
+      731,
+      378
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9296504855155945
+  },
+  {
+    "filename": "5a2e12a7-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      0,
+      358,
+      147,
+      491
+    ],
+    "category": "bird",
+    "category_id": 11,
+    "conf": 0.8706383109092712
+  },
+  {
+    "filename": "5a2e1346-23d2-11e8-a6a3-ec086b02610b.jpg",
+    "bbox": [
+      293,
+      331,
+      496,
+      453
+    ],
+    "category": "opossum",
+    "category_id": 1,
+    "conf": 0.9330562949180603
+  }
+]
