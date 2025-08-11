@@ -142,7 +142,7 @@ with main_tab:
         **Key results**  
         - **CIS-test**: F1 = 0.84 (classifier), 0.97+ (detector)  
         - **TRANS-test**: F1 = 0.71 (classifier), 0.96 (detector)  
-        - **Error reduction**: TRANS-test classification error cut by **≈ 83 %** vs best single-stage YOLOv8 baseline.
+        - **Error reduction**: TRANS-test classification error cut by **≈ 24.2 %** vs best single-stage MegaDetector V6.
         - Maintains **high recall for rare species** under location shift.
 
         **Takeaway**  
@@ -594,7 +594,7 @@ with main_tab:
 
     # Headline statement
     st.write(
-        "*Two-stage ConvNeXt system cuts TRANS-test error by near **80 %** relative to the best "
+        "*Two-stage ConvNeXt system cuts TRANS-test error by near **24 %** relative to the best "
         "single-stage YOLOv8 model.*"
     )
 
@@ -714,7 +714,7 @@ with main_tab:
     - A **binary MegaDetector v6** (YOLOv9-Compact backbone) for high-recall localisation.
     - A **ConvNeXt-Small classifier** with class-balanced focal loss and tailored augmentation banks for fine-grained recognition.
 
-    Together, this two-stage approach outperforms the best single-stage detectors on both in-domain and out-of-domain test sets, cutting TRANS-test error by ~80%.
+    Together, this two-stage approach outperforms the best single-stage detectors on both in-domain and out-of-domain test sets, cutting TRANS-test error by ~24%.
     """)
 
     st.markdown("""
