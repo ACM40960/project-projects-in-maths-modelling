@@ -10,14 +10,31 @@ from utils.predict import WildlifePredictor
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
+# ===== Anchors =====
+BASE_DIR = Path(__file__).resolve().parent          # …/web_app
+PROJECT_ROOT = BASE_DIR.parent                      # repo root
+
+# app folders
+ASSETS      = BASE_DIR / "assets"
+FIGS        = ASSETS / "figs"
+DATA_DIR    = PROJECT_ROOT / "data"
+MODELS_DIR  = PROJECT_ROOT / "models"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "eval_reports"
+EVAL_DIR = PROJECT_ROOT / "eval" / "detector_stage"
+PIPELINE_REPORTS_DIR = PROJECT_ROOT / "eval" / "pipeline_results" / "eval_reports"
+
+# helper to make shorter calls
+def asset(*parts):   return str(ASSETS.joinpath(*parts))
+def fig(*parts):     return str(FIGS.joinpath(*parts))
+def report(*parts):  return str(REPORTS_DIR.joinpath(*parts))
+def root(*parts):    return str(PROJECT_ROOT.joinpath(*parts))
 
 # ----------------------------------------------------------------------------
 # Configurable paths – edit as needed
 # ----------------------------------------------------------------------------
-BG_IMAGE_PATH = "assets/background.jpg"  # Local background image
-IMG_1 = "assets/example_1.jpg"
-IMG_2 = "assets/example_2.jpg"
-
+BG_IMAGE_PATH = asset("background.jpg")
+IMG_1 = asset("example_1.jpg")
+IMG_2 = asset("example_2.jpg")
 
 # ----------------------------------------------------------------------------
 # Helper to embed a local image as base‑64 for CSS background
@@ -365,12 +382,12 @@ with main_tab:
     left, right = st.columns(2, gap="medium")
 
     with left:
-        st.image("assets/F1_single.png",        caption="F1 Score",      width=650)
-        st.image("assets/Precision_single.png", caption="Precision",     width=650)
+        st.image(asset("F1_single.png"), caption="F1 Score", width=650)
+        st.image(asset("Precision_single.png"), caption="Precision", width=650)
 
     with right:
-        st.image("assets/Recall_single.png",    caption="Recall",        width=650)
-        st.image("assets/map50_single.png",     caption="mAP-50",        width=650)
+        st.image(asset("Recall_single.png"), caption="Recall", width=650)
+        st.image(asset("map50_single.png"), caption="mAP-50", width=650)
 
 
 
@@ -482,7 +499,7 @@ with main_tab:
 
 
     st.image(
-    "assets/figs/megadetectorv6.png",
+    fig("megadetectorv6.png"),
     caption="MegaDetector v6 Architecture",
     output_format="PNG",
     width=1600 
@@ -558,7 +575,7 @@ with main_tab:
 
     
     st.image(
-    "assets/figs/convnext.png",
+    fig("convnext.png"),
     caption="Convnext Architecture",
     output_format="PNG",
     width=1600  
@@ -599,7 +616,7 @@ with main_tab:
     )
 
     # Full pipeline diagram
-    st.image("assets/figs/pipeline.png", caption="Full two-stage pipeline: detection → classification", output_format="PNG")
+    st.image(fig("pipeline.png"), caption="Full two-stage pipeline: detection → classification", output_format="PNG")
     st.markdown(
     """
     ### Final Two-Stage Inference Pipeline
@@ -645,10 +662,12 @@ with main_tab:
     cols = st.columns([1, 1])  # equal width
     for i, cm_file in enumerate(detector_df["CM image"]):
         with cols[i % 2]:
-            st.image(f"../eval/detector_stage/{cm_file}", 
-                    caption=detector_df.loc[i, "Split"], 
-                    output_format="PNG", 
-                    width=650)
+            st.image(
+                str(EVAL_DIR / cm_file),
+                caption=detector_df.loc[i, "Split"],
+                output_format="PNG",
+                width=650
+            )
 
     st.markdown("### Stage 2 – ConvNeXt-Small Classifier (13 species)")
 
@@ -667,10 +686,10 @@ with main_tab:
 
     # File paths for each split
     report_files = {
-        "CIS Val": "../eval/pipeline_results/eval_reports/cis_val_classification_report.csv",
-        "CIS Test": "../eval/pipeline_results/eval_reports/cis_test_classification_report.csv",
-        "TRANS Val": "../eval/pipeline_results/eval_reports/trans_val_classification_report.csv",
-        "TRANS Test": "../eval/pipeline_results/eval_reports/trans_test_classification_report.csv"
+        "CIS Val": PIPELINE_REPORTS_DIR / "cis_val_classification_report.csv",
+    "CIS Test": PIPELINE_REPORTS_DIR / "cis_test_classification_report.csv",
+    "TRANS Val": PIPELINE_REPORTS_DIR / "trans_val_classification_report.csv",
+    "TRANS Test": PIPELINE_REPORTS_DIR / "trans_test_classification_report.csv"
     }
 
     # Tabs for each split
@@ -692,12 +711,12 @@ with main_tab:
 
     # Confusion matrices for classifier
     cols = st.columns(2)
-    cols[0].image("../eval/pipeline_results/eval_reports/cis_test_confusion_matrix.png", caption="CIS-test", output_format="PNG")
-    cols[1].image("../eval/pipeline_results/eval_reports/trans_test_confusion_matrix.png", caption="TRANS-test", output_format="PNG")
+    cols[0].image(PIPELINE_REPORTS_DIR / "cis_test_confusion_matrix.png", caption="CIS-test", output_format="PNG")
+    cols[1].image(PIPELINE_REPORTS_DIR / "trans_test_confusion_matrix.png", caption="TRANS-test", output_format="PNG")
 
     cols = st.columns(2)
-    cols[0].image("../eval/pipeline_results/eval_reports/cis_val_confusion_matrix.png", caption="CIS-val", output_format="PNG")
-    cols[1].image("../eval/pipeline_results/eval_reports/trans_val_confusion_matrix.png", caption="TRANS-val", output_format="PNG")
+    cols[0].image(PIPELINE_REPORTS_DIR / "cis_val_confusion_matrix.png", caption="CIS-val", output_format="PNG")
+    cols[1].image(PIPELINE_REPORTS_DIR / "trans_val_confusion_matrix.png", caption="TRANS-val", output_format="PNG")
 
 
     st.header("Literature context")
