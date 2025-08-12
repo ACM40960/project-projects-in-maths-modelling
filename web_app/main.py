@@ -249,9 +249,9 @@ with main_tab:
         - This modular design allows independent optimisation of detection and classification.
 
         **Key results**  
-        - **CIS-test**: F1 = 0.84 (classifier), 0.97+ (detector)  
-        - **TRANS-test**: F1 = 0.71 (classifier), 0.96 (detector)  
-        - **Error reduction**: TRANS-test classification error cut by **≈ 24.2 %** vs best single-stage MegaDetector V6.
+        - **CIS-test**: F1 = 0.90 (classifier), 0.97+ (detector)  
+        - **TRANS-test**: F1 = 0.77 (classifier), 0.96 (detector)  
+        - **Error reduction**: TRANS-test classification error cut by **≈ 27.5 %** vs best single-stage MegaDetector V6.
         - Maintains **high recall for rare species** under location shift.
 
         **Takeaway**  
@@ -437,12 +437,12 @@ with main_tab:
 
         ### Augmentation & scheduling
 
-        | run (YOLOv8)                | policy  | backbone | rationale                                                       |
-        |-----------------------------|---------|----------|-----------------------------------------------------------------|
-        | *baseline*                  | none    | train‑all| sanity‑check / over‑fit detection                               |
-        | *light*                     | light   | train‑all| flips & mild colour jitter – basic invariances                  |
-        | *medium* **(best)**         | medium  | train‑all| adds geometric, colour, CutOut – balances bias & variance       |
-        | *medium‑frozen*             | medium  | freeze‑unfreeze | froze backbone for first 4 epochs – faster convergence   |
+        | run & aug-setup (YOLOv8)                | rationale                                                       |
+        |-----------------------------|-----------------------------------------------------------------|
+        | *baseline*                   |sanity‑check / over‑fit detection                               |
+        | *light*                      |flips & mild colour jitter – basic invariances                  |
+        | *medium* **(best)**         |adds geometric, colour, CutOut – balances bias & variance       |
+        | *medium‑frozen*              |froze backbone for first 4 epochs – faster convergence   |
 
         MegaDetector‑v6 was trained once, using its **built‑in augmentation suite** and the same
         *backbone‑freeze* schedule.
@@ -605,16 +605,21 @@ with main_tab:
         ---
         ###  Stage 2 – Fine-grained species classifier
 
-        | Backbone                 | Params | Tricks | CIS-test F1 | TRANS-test F1 |
-        |--------------------------|-------:|--------|:-----------:|:-------------:|
-        | EfficientNet-V2-S + **3×CBAM** | 24 M | CB-Focal Loss ✚ WeightedSampler | 0.789 | 0.638 |
-        | **ConvNeXt-Tiny (chosen)** | 28 M | larger 7×7 DW-conv, LayerNorm, GELU | **0.840** | **0.714** |
+        | Backbone                 | Params | Tricks | 
+        |--------------------------|-------:|--------|
+        | EfficientNet-V2-S + **3×CBAM** | 24 M | CB-Focal Loss ✚ WeightedSampler | 
+        | **ConvNeXt-Small (Finetuned)** | 28 M | larger 7×7 DW-conv, LayerNorm, GELU |
+
+        |CIS-test F1 | TRANS-test F1 |
+        |--------------------------|-------:|
+        |0.789 | 0.638 |
+        | **0.903** | **0.773** |
 
         * **Why these backbones?**  
         *EfficientNet-V2* offers excellent FLOP-per-accuracy and benefits from
         compound-scaling. The inserted **CBAM** blocks [^cbam] inject
         channel + spatial attention, lifting minority-species F1 by ≈ +2.  
-        *ConvNeXt-T* is a *ViT-inspired CNN* [^convnext] – 7×7 depth-wise kernels, 
+        *ConvNeXt-S* is a *ViT-inspired CNN* [^convnext] – 7×7 depth-wise kernels, 
         patch-norm ordering, and GELUs capture longer-range texture cues crucial for
         fine-grained pelage patterns, yet trains like a standard CNN (no
         tokenisation), making it amenable to heavy augmentation.
@@ -691,7 +696,7 @@ with main_tab:
         ---
         **Key takeaway** Binary **MegaDetector v6 → ConvNeXt-T** yields the highest
         cross-domain performance among all our experiments:  
-        **F1 0.84 (CIS) / 0.71 (TRANS)**, narrowing the CIS→TRANS gap to 0.13 – the
+        **F1 0.90 (CIS) / 0.77 (TRANS)**, narrowing the CIS→TRANS gap to 0.13 – the
         lowest of any configuration tested.
 
         """
@@ -705,8 +710,8 @@ with main_tab:
 
     # Headline statement
     st.write(
-        "*Two-stage ConvNeXt system cuts TRANS-test error by near **24 %** relative to the best "
-        "single-stage YOLOv8 model.*"
+        "*Two-stage ConvNeXt system cuts TRANS-test error by near **27.5 %** relative to the best "
+        "single-stage Megadetector V6 model.*"
     )
 
     # Full pipeline diagram
@@ -828,7 +833,7 @@ with main_tab:
     - A **binary MegaDetector v6** (YOLOv9-Compact backbone) for high-recall localisation.
     - A **ConvNeXt-Small classifier** with class-balanced focal loss and tailored augmentation banks for fine-grained recognition.
 
-    Together, this two-stage approach outperforms the best single-stage detectors on both in-domain and out-of-domain test sets, cutting TRANS-test error by ~24%.
+    Together, this two-stage approach outperforms the best single-stage detectors on both in-domain and out-of-domain test sets, cutting TRANS-test error by ~27.5%.
     """)
 
     st.markdown("""
