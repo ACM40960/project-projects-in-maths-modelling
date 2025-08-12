@@ -114,8 +114,100 @@ st.markdown(
             font-weight: 600 !important;
         }}
 
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {{
+            .content-card {{
+                padding: 1rem 1.5rem;
+                margin-bottom: 1rem;
+            }}
+            
+            .metric-box {{
+                padding: 1rem 0.5rem;
+                margin-bottom: 0.5rem;
+            }}
+            
+            .metric-value {{
+                font-size: 1.5rem;
+            }}
+            
+            .metric-label {{
+                font-size: 0.9rem;
+            }}
+            
+            div[data-baseweb="tab-list"] {{
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }}
+            
+            button[data-baseweb="tab"] {{
+                padding: 0.8rem 1.5rem !important;
+                min-width: 120px;
+                flex: 1 1 auto;
+                max-width: 45%;
+            }}
+            
+            button[data-baseweb="tab"] > div {{
+                font-size: 1.1rem !important;
+            }}
+            
+            /* Responsive headings */
+            h1 {{
+                font-size: 1.8rem !important;
+                line-height: 1.2 !important;
+            }}
+            
+            h2 {{
+                font-size: 1.4rem !important;
+                line-height: 1.3 !important;
+            }}
+            
+            h3 {{
+                font-size: 1.2rem !important;
+                line-height: 1.3 !important;
+            }}
+        }}
+
+        /* Extra small mobile screens */
+        @media (max-width: 480px) {{
+            .content-card {{
+                padding: 0.8rem 1rem;
+            }}
+            
+            .metric-box {{
+                padding: 0.8rem 0.3rem;
+            }}
+            
+            button[data-baseweb="tab"] {{
+                padding: 0.6rem 1rem !important;
+                min-width: 100px;
+            }}
+            
+            button[data-baseweb="tab"] > div {{
+                font-size: 1rem !important;
+            }}
+            
+            h1 {{
+                font-size: 1.5rem !important;
+            }}
+            
+            h2 {{
+                font-size: 1.3rem !important;
+            }}
+            
+            h3 {{
+                font-size: 1.1rem !important;
+            }}
+        }}
+
         #MainMenu, header, footer {{visibility: hidden;}}
         html, body, [class*="css"] {{font-family: "Helvetica Neue", Arial, sans-serif;}}
+        
+        /* Prevent horizontal scroll */
+        .main .block-container {{
+            max-width: 100%;
+            overflow-x: hidden;
+        }}
     </style>
     """,
     unsafe_allow_html=True,
@@ -129,7 +221,7 @@ main_tab, test_tab = st.tabs(["Main", "Test"])
 
 # ---------------------------------------------------------------- MAIN TAB --
 with main_tab:
-    st.title("Wildlife Camera‑Trap Species Classification & Domain‑Shift Study")
+    st.title("Wildlife Camera‑Trap Species Classification & Domain‑Shift Study")
 
 
 
@@ -152,7 +244,7 @@ with main_tab:
         class-balanced focal loss and tailored augmentations.
 
         **Why two stages?**  
-        - Detecting “something is there” is easier than identifying the exact species.
+        - Detecting "something is there" is easier than identifying the exact species.
         - Cropping animals before classification reduces background bias and improves generalisation.
         - This modular design allows independent optimisation of detection and classification.
 
@@ -176,7 +268,7 @@ with main_tab:
     with col1:
         st.markdown(
             """<div class='metric-box'>
-                    <div class='metric-value'>≈ 51 000+</div>
+                    <div class='metric-value'>≈ 51 000+</div>
                     <div class='metric-label'>Images</div>
                 </div>""",
             unsafe_allow_html=True,
@@ -185,7 +277,7 @@ with main_tab:
         st.markdown(
             """<div class='metric-box'>
                     <div class='metric-value'>15</div>
-                    <div class='metric-label'>Species + Vehicle</div>
+                    <div class='metric-label'>Species + Vehicle</div>
                 </div>""",
             unsafe_allow_html=True,
         )
@@ -193,7 +285,7 @@ with main_tab:
         st.markdown(
             """<div class='metric-box'>
                     <div class='metric-value'>20</div>
-                    <div class='metric-label'>Camera Locations</div>
+                    <div class='metric-label'>Camera Locations</div>
                 </div>""",
             unsafe_allow_html=True,
         )
@@ -217,10 +309,10 @@ with main_tab:
         col1, col2 = st.columns(2)         # split the row into two columns
 
         with col1:
-            st.image(IMG_1, width=650, caption="Day-time example")
+            st.image(IMG_1, width=650, caption="Day-time example", use_container_width=True)
 
         with col2:
-            st.image(IMG_2, width=650, caption="Night-time example")
+            st.image(IMG_2, width=650, caption="Night-time example", use_container_width=True)
 
     # -------------------------------------------------------------------
     # CCT20 benchmark & dataset details (add after the example images)
@@ -262,7 +354,7 @@ with main_tab:
         """
         Caltech Camera Traps contains ≈ 243 000 motion-triggered images from 140 locations.  
         Of these, **57 864 images from 20 cameras form the CCT20 subset** with bounding boxes
-        used in *“Recognition in Terra Incognita”*.
+        used in *"Recognition in Terra Incognita"*.
 
         Automating detection and classification accelerates ecological studies by reducing
         months of manual sorting to minutes.
@@ -332,16 +424,16 @@ with main_tab:
 
     st.header("Methodology summary")
 
-    st.subheader("1 Single‑stage detector baselines (YOLOv8 & MegaDetector‑v6)")
+    st.subheader("1 Single‑stage detector baselines (YOLOv8 & MegaDetector‑v6)")
 
     st.write(
         """
-        We benchmarked two modern one‑stage detectors – **Ultralytics YOLOv8** and Microsoft’s
+        We benchmarked two modern one‑stage detectors – **Ultralytics YOLOv8** and Microsoft's
         **MegaDetector‑v6** – on the 14‑species(includes "car" class) Caltech Camera Traps subset.
 
         ### Why these models?
         * **YOLOv8**: state‑of‑the‑art speed/accuracy trade‑off and an open, well‑maintained training pipeline.
-        * **MegaDetector‑v6**: already pretrained on >4 million wildlife images, making it a strong candidate for transfer learning.
+        * **MegaDetector‑v6**: already pretrained on >4 million wildlife images, making it a strong candidate for transfer learning.
 
         ### Augmentation & scheduling
 
@@ -350,7 +442,7 @@ with main_tab:
         | *baseline*                  | none    | train‑all| sanity‑check / over‑fit detection                               |
         | *light*                     | light   | train‑all| flips & mild colour jitter – basic invariances                  |
         | *medium* **(best)**         | medium  | train‑all| adds geometric, colour, CutOut – balances bias & variance       |
-        | *medium‑frozen*             | medium  | freeze‑unfreeze | froze backbone for first 4 epochs – faster convergence       |
+        | *medium‑frozen*             | medium  | freeze‑unfreeze | froze backbone for first 4 epochs – faster convergence   |
 
         MegaDetector‑v6 was trained once, using its **built‑in augmentation suite** and the same
         *backbone‑freeze* schedule.
@@ -382,12 +474,12 @@ with main_tab:
     left, right = st.columns(2, gap="medium")
 
     with left:
-        st.image(asset("F1_single.png"), caption="F1 Score", width=650)
-        st.image(asset("Precision_single.png"), caption="Precision", width=650)
+        st.image(asset("F1_single.png"), caption="F1 Score", width=650, use_container_width=True)
+        st.image(asset("Precision_single.png"), caption="Precision", width=650, use_container_width=True)
 
     with right:
-        st.image(asset("Recall_single.png"), caption="Recall", width=650)
-        st.image(asset("map50_single.png"), caption="mAP-50", width=650)
+        st.image(asset("Recall_single.png"), caption="Recall", width=650, use_container_width=True)
+        st.image(asset("map50_single.png"), caption="mAP-50", width=650, use_container_width=True)
 
 
 
@@ -406,7 +498,7 @@ with main_tab:
 
     ### Progressive-intensity schedule
 
-    We wrap Ultralytics’ `YOLODataset` with **`ProgressiveAugmentationDataset`**, which
+    We wrap Ultralytics' `YOLODataset` with **`ProgressiveAugmentationDataset`**, which
     ramps augmentation strength **smoothly from an initial to a maximum value** using a
     cosine curve:
 
@@ -433,7 +525,7 @@ with main_tab:
     # ------------------------------------------------------------------
     # 3  Two-stage pipeline – MegaDetector v6 ➊ + species classifier ➋
     # ------------------------------------------------------------------
-    st.header("3 Two-stage pipeline: detector + species classifier")
+    st.header("3 Two-stage pipeline: detector + species classifier")
 
     st.markdown(
         """
@@ -445,8 +537,8 @@ with main_tab:
         
         ###  Stage 1 – MegaDetector v6 (animal / vehicle)
 
-        * **Architecture**: Faster R-CNN (ResNet-50 + FPN) trained on **≈ 4 M** wildlife
-        images across 65+ countries [^md-wild].  
+        * **Architecture**: YOLOv9-Compact backbone (the new MDv6-c variant) 
+        with FPN-style neck and SPPF, optimized for speed and recall.[^md-wild].  
         * **Binary retrain** (animal vs vehicle) on CCT → higher recall & fewer
         negatives than a 14-class YOLO: locating *something* is easier than locating
         *everything*.  
@@ -469,7 +561,7 @@ with main_tab:
     
     st.markdown(
     """
-    ## MegaDetector v6 – “MDv6-yolov9-c” Model Overview
+    ## MegaDetector v6 – "MDv6-yolov9-c" Model Overview
 
     **Architecture Highlights**
     - A modern **YOLOv9-Compact** backbone with FPN-style structure: sequential Conv blocks, downsampling (`Down2x`), upsampling (`Up2x`), and lateral skip connections to fuse features across scales.
@@ -502,7 +594,8 @@ with main_tab:
     fig("megadetectorv6.png"),
     caption="MegaDetector v6 Architecture",
     output_format="PNG",
-    width=1600 
+    width=1600,
+    use_container_width=True
 )
 
 
@@ -544,7 +637,7 @@ with main_tab:
     """
     ### ConvNeXt-Small Architecture
 
-    **1. What’s in the Diagram**  
+    **1. What's in the Diagram**  
     - **Stem**: 4×4 convolution with stride 4 to create non-overlapping patches (96 channels).  
     - **ConvNeXt Blocks**: Each block contains a 7×7 depthwise convolution → LayerNorm → MLP with GELU activation.  
     - **Downsampling**: Reduces spatial size between stages (e.g., 112×112 → 56×56 → 28×28 → 14×14) while increasing channel depth.  
@@ -578,7 +671,8 @@ with main_tab:
     fig("convnext.png"),
     caption="Convnext Architecture",
     output_format="PNG",
-    width=1600  
+    width=1600,
+    use_container_width=True
     )
     
     st.markdown(
@@ -595,7 +689,7 @@ with main_tab:
         subtle inter-class edges; modular design lets ecologists swap either stage.
 
         ---
-        **Key takeaway** Binary **MegaDetector v6 → ConvNeXt-T** yields the highest
+        **Key takeaway** Binary **MegaDetector v6 → ConvNeXt-T** yields the highest
         cross-domain performance among all our experiments:  
         **F1 0.84 (CIS) / 0.71 (TRANS)**, narrowing the CIS→TRANS gap to 0.13 – the
         lowest of any configuration tested.
@@ -616,7 +710,7 @@ with main_tab:
     )
 
     # Full pipeline diagram
-    st.image(fig("pipeline.png"), caption="Full two-stage pipeline: detection → classification", output_format="PNG")
+    st.image(fig("pipeline.png"), caption="Full two-stage pipeline: detection → classification", output_format="PNG", use_container_width=True)
     st.markdown(
     """
     ### Final Two-Stage Inference Pipeline
@@ -639,7 +733,7 @@ with main_tab:
 
     **Why two stages?**  
     - Decoupling localisation and recognition improves cross-site robustness:  
-      locating “anything alive” is easier than identifying the exact species.  
+      locating "anything alive" is easier than identifying the exact species.  
     - Stage 1 runs with a lower threshold to prioritise recall; Stage 2 applies a higher threshold for 
       species confidence.  
     - This design reduces missed detections while keeping background false positives low.
@@ -656,7 +750,7 @@ with main_tab:
         ["megadetectorv6", "CIS", "test", 0.35, 0.9789, 0.9732, 0.9760, 0.9797, 0.8223, "megadetectorv6_cis_test_cm.png"],
     ]
     detector_df = pd.DataFrame(detector_data, columns=["Model", "Domain", "Split", "Conf", "Precision", "Recall", "F1", "mAP50", "mAP50-95", "CM image"])
-    st.dataframe(detector_df.drop(columns=["CM image"]), hide_index=True)
+    st.dataframe(detector_df.drop(columns=["CM image"]), hide_index=True, use_container_width=True)
 
     # Show confusion matrices in a row
     cols = st.columns([1, 1])  # equal width
@@ -666,7 +760,8 @@ with main_tab:
                 str(EVAL_DIR / cm_file),
                 caption=detector_df.loc[i, "Split"],
                 output_format="PNG",
-                width=650
+                width=650,
+                use_container_width=True
             )
 
     st.markdown("### Stage 2 – ConvNeXt-Small Classifier (13 species)")
@@ -682,7 +777,7 @@ with main_tab:
         "Split", "Accuracy", "Weighted F1", "Weighted Precision", "Weighted Recall", "Macro Recall"
     ])
     st.markdown("**Overall Metrics per Split**")
-    st.dataframe(general_df, hide_index=True)
+    st.dataframe(general_df, hide_index=True, use_container_width=True)
 
     # File paths for each split
     report_files = {
@@ -707,16 +802,16 @@ with main_tab:
             df.columns = ["Class", "Precision", "Recall", "F1-score", "Support"]
             
             st.markdown(f"**Per-class metrics – {split_name}**")
-            st.dataframe(df, hide_index=True)
+            st.dataframe(df, hide_index=True, use_container_width=True)
 
     # Confusion matrices for classifier
     cols = st.columns(2)
-    cols[0].image(PIPELINE_REPORTS_DIR / "cis_test_confusion_matrix.png", caption="CIS-test", output_format="PNG")
-    cols[1].image(PIPELINE_REPORTS_DIR / "trans_test_confusion_matrix.png", caption="TRANS-test", output_format="PNG")
+    cols[0].image(PIPELINE_REPORTS_DIR / "cis_test_confusion_matrix.png", caption="CIS-test", output_format="PNG", use_container_width=True)
+    cols[1].image(PIPELINE_REPORTS_DIR / "trans_test_confusion_matrix.png", caption="TRANS-test", output_format="PNG", use_container_width=True)
 
     cols = st.columns(2)
-    cols[0].image(PIPELINE_REPORTS_DIR / "cis_val_confusion_matrix.png", caption="CIS-val", output_format="PNG")
-    cols[1].image(PIPELINE_REPORTS_DIR / "trans_val_confusion_matrix.png", caption="TRANS-val", output_format="PNG")
+    cols[0].image(PIPELINE_REPORTS_DIR / "cis_val_confusion_matrix.png", caption="CIS-val", output_format="PNG", use_container_width=True)
+    cols[1].image(PIPELINE_REPORTS_DIR / "trans_val_confusion_matrix.png", caption="TRANS-val", output_format="PNG", use_container_width=True)
 
 
     st.header("Literature context")
@@ -755,7 +850,7 @@ with main_tab:
 
     [^vyskocil] Vyskočil, J., et al. (2024). Towards Zero-Shot Camera Trap Image Categorization. *Ecological Informatics*, 76, 102380.
 
-    **Additional recent works (APA style)**
+    **Additional recent works**
 
     - Jocher, G., et al. (2024). YOLOv9: Next-generation real-time object detection. *arXiv preprint arXiv:2402.13616*.  
     - Deng, C., et al. (2022). Vision Transformers for dense prediction in ecological imaging. *Ecological Informatics*, 68, 101578.  
@@ -763,9 +858,6 @@ with main_tab:
     - Wu, C.-Y., et al. (2022). ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders. *arXiv preprint arXiv:2301.00808*.  
     """)
 
-
-
-    
     st.markdown("</div>", unsafe_allow_html=True)
 
 
@@ -968,7 +1060,7 @@ with test_tab:
             # Species selection
             species_options = [cat['name'] for cat in data['categories']]
             selected_species = st.selectbox(
-                " Select species to predict:",
+                "Select species to predict:",
                 options=species_options,
                 help="Choose which animal species you want to test prediction on"
             )
@@ -1063,10 +1155,9 @@ with test_tab:
                             - Numbers in parentheses show confidence scores
                             """)
                         else:
-                            st.info(" Click 'Run Prediction' to see results")
+                            st.info("Click 'Run Prediction' to see results")
             
-            # -------- Render (no expander) --------
-        st.markdown("###  How it works")
+        st.markdown("### How it works")
         st.markdown("""
         1. **Select Species** → choose an animal  
         2. **Run Prediction** → we pick a random image containing that species  
@@ -1076,7 +1167,7 @@ with test_tab:
         **Confidence thresholds:** MegaDetector = 0.35, Classifier = 0.55
         """)
 
-        st.markdown("###  Overall metrics")
+        st.markdown("### Overall metrics")
         st.dataframe(
             overall_df.style.format({
                 "accuracy": "{:.3f}",
@@ -1091,7 +1182,7 @@ with test_tab:
             use_container_width=True
         )
 
-        st.markdown("###  Per‑class report  — CIS")
+        st.markdown("### Per‑class report — CIS")
         st.dataframe(
             cis_per_class_with_acc.style.format({
                 "accuracy": "{:.3f}",
@@ -1103,7 +1194,7 @@ with test_tab:
             use_container_width=True
         )
 
-        st.markdown("###  Per‑class report  — TRANS")
+        st.markdown("### Per‑class report — TRANS")
         st.dataframe(
             trans_per_class_with_acc.style.format({
                 "accuracy": "{:.3f}",
@@ -1115,13 +1206,12 @@ with test_tab:
             use_container_width=True
         )
 
-
-        st.markdown("###  Confusion matrices")
+        st.markdown("### Confusion matrices")
         c1, c2 = st.columns(2)
         with c1:
-            st.image(metrics_dir / "verify_cis_test_confusion_matrix.png", caption="CIS Verification")
+            st.image(metrics_dir / "verify_cis_test_confusion_matrix.png", caption="CIS Verification", use_container_width=True)
         with c2:
-            st.image(metrics_dir / "verify_trans_test_confusion_matrix.png", caption="TRANS Verification")
+            st.image(metrics_dir / "verify_trans_test_confusion_matrix.png", caption="TRANS Verification", use_container_width=True)
 
                 
     except Exception as e:
