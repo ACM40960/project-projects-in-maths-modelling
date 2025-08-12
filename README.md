@@ -4,10 +4,11 @@
 
 ![Project Banner](assets/banner_image.jpg) <!-- Suggested: A compelling image showing camera-trap setup or wildlife montage -->
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org/)
 [![ONNX](https://img.shields.io/badge/ONNX-Runtime-green.svg)](https://onnxruntime.ai/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ##  Table of Contents
 - [ Project Overview](#-project-overview)
@@ -38,7 +39,7 @@ Raw Image →  MegaDetector v6 →  ConvNeXt Classifier → 🏷 Species Label
 ### Key Innovation
 - **Stage 1**: Binary animal/vehicle detection with high recall
 - **Stage 2**: Fine-grained 13-species classification on cropped regions
-- **Result**: 83% error reduction on unseen locations vs. best single-stage baseline
+- **Result**: 27.5% error reduction on unseen locations vs. best single-stage baseline
 
 ![Pipeline Overview](web_app/assets/figs/pipeline.png)
 
@@ -85,14 +86,40 @@ evaluation.ipynb
 verification.ipynb
 ```
 
-##  Dataset
+## Dataset
 
 ### CCT20 Benchmark Subset
-- **51,000+** camera-trap images from 20 locations
-- **13 wildlife species + vehicle** class
-- **Split design**: CIS (seen locations) vs TRANS (unseen locations)
+The CCT20 benchmark (Beery et al., ECCV 2018) is a curated subset of the Caltech Camera Traps dataset, containing over 51,000 downsized images (max edge ≤ 1024 px) from 20 camera locations.  
+- 13 wildlife species + vehicle  
+- CIS: Seen locations (train/val/test)  
+- TRANS: Unseen locations (test only), used to evaluate real-world generalization  
 
-![Dataset Overview](assets/dataset_overview.png) <!-- Suggested: Species distribution chart or sample images grid -->
+Our pipeline is trained only on CIS train/val and evaluated on both CIS-test and TRANS-test.
+
+The full Caltech Camera Traps dataset contains approximately 243,000 images from 140 locations. CCT20 includes 57,864 images with bounding boxes.
+
+### Download Links
+| Resource | Size | Link |
+|----------|------|------|
+| Benchmark Images | 6 GB | [Download](https://storage.googleapis.com/public-datasets-lila/caltechcameratraps/eccv_18_all_images_sm.tar.gz) |
+| Metadata & Splits | 3 MB | [Download](https://storage.googleapis.com/public-datasets-lila/caltechcameratraps/eccv_18_annotations.tar.gz) |
+
+More details: [Caltech Camera Traps Project Page](https://beerys.github.io/CaltechCameraTraps/)
+
+### Citation
+If you use this dataset, please cite:
+```bibtex
+@inproceedings{DBLP:conf/eccv/BeeryHP18,
+  author    = {Sara Beery and Grant Van Horn and Pietro Perona},
+  title     = {Recognition in Terra Incognita},
+  booktitle = {Proc. ECCV 2018},
+  pages     = {472--489},
+  year      = {2018},
+  doi       = {10.1007/978-3-030-01270-0_28}
+}
+```
+
+---
 
 ### Key Challenges
 - **Illumination**: Night-time IR imagery with low contrast
@@ -101,7 +128,11 @@ verification.ipynb
 - **Class imbalance**: Long-tailed species distribution
 - **Location bias**: Background-dependent features
 
-![Sample Images](assets/sample_challenges.jpg) <!-- Your existing day/night examples -->
+<p align="center">
+  <img src="web_app/assets/example_1.jpg" alt="Sample 1" width="45%"/>
+  <img src="web_app/assets/example_2.jpg" alt="Sample 2" width="45%"/>
+</p>
+
 
 ##  Methodology
 
