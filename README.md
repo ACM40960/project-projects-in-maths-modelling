@@ -135,15 +135,19 @@ If you use this dataset, please cite:
 - **Class imbalance**: Long-tailed species distribution
 - **Location bias**: Background-dependent features
 
-<figure>
-  <img src="web_app/assets/example_1.jpg" alt="Seen (in-domain) Example — Squirrel, daylight">
-  <figcaption align="center"><sub>Seen (in-domain) Example — Squirrel, daylight</sub></figcaption>
-</figure>
+<div align="center" style="margin:0 0 28px;">
+  <img src="web_app/assets/example_1.jpg"
+       alt="Seen (in-domain) Example — Squirrel, daylight"
+       style="max-width:100%; height:auto; display:block;">
+  <div style="margin-top:8px;"><sub>Seen (in-domain) Example — Squirrel, daylight</sub></div>
+</div>
 
-<figure>
-  <img src="web_app/assets/example_2.jpg" alt="Unseen (out-of-domain) Example — Dog, night IR">
-  <figcaption align="center"><sub>Unseen (out-of-domain) Example — Dog, night IR</sub></figcaption>
-</figure>
+<div align="center" style="margin:0 0 28px;">
+  <img src="web_app/assets/example_2.jpg"
+       alt="Unseen (out-of-domain) Example — Dog, night IR"
+       style="max-width:100%; height:auto; display:block;">
+  <div style="margin-top:8px;"><sub>Unseen (out-of-domain) Example — Dog, night IR</sub></div>
+</div>
 
 
 ##  Methodology
