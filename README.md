@@ -17,10 +17,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ##  Table of Contents
-- [ Project Overview](#-project-overview)
-- [ Quick Start](#-quick-start)
-- [ Dataset](#-dataset)
-- [ Methodology](#-methodology)
+- [ Project Overview](#project-overview)
+- [ Quick Start](#quick-start)
+- [ Dataset](#dataset)
+- [ Methodology](#methodology)
 - [ Results](#-results)
 - [ Running the Project](#-running-the-project)
 - [ Project Structure](#-project-structure)
@@ -135,16 +135,15 @@ If you use this dataset, please cite:
 - **Class imbalance**: Long-tailed species distribution
 - **Location bias**: Background-dependent features
 
-<p align="center">
-  <figure style="display:inline-block; margin: 0 10px;">
-    <img src="web_app/assets/example_1.jpg" alt="Sample 1" width="45%"/>
-    <figcaption align="center"><sub>Seen (in-domain) Example — Squirrel, daylight</sub></figcaption>
-  </figure>
-  <figure style="display:inline-block; margin: 0 10px;">
-    <img src="web_app/assets/example_2.jpg" alt="Sample 2" width="45%"/>
-    <figcaption align="center"><sub>Unseen (out-of-domain) Example — Dog, night IR</sub></figcaption>
-  </figure>
-</p>
+<figure>
+  <img src="web_app/assets/example_1.jpg" alt="Seen (in-domain) Example — Squirrel, daylight">
+  <figcaption align="center"><sub>Seen (in-domain) Example — Squirrel, daylight</sub></figcaption>
+</figure>
+
+<figure>
+  <img src="web_app/assets/example_2.jpg" alt="Unseen (out-of-domain) Example — Dog, night IR">
+  <figcaption align="center"><sub>Unseen (out-of-domain) Example — Dog, night IR</sub></figcaption>
+</figure>
 
 
 ##  Methodology
@@ -307,10 +306,15 @@ wildlife-camera-trap-classification/
 
 ### Demo Screenshots
 
-<p align="center">
-  <img src="web_app/assets/figs/web_app_1.png" alt="Project Details" width="48%"/>
-  <img src="web_app/assets/figs/web_app_2.png" alt="Live Inference" width="48%"/>
-</p>
+<figure>
+  <img src="web_app/assets/figs/web_app_1.png" alt="Project Details">
+  <figcaption align="center"><sub>Project Details</sub></figcaption>
+</figure>
+
+<figure>
+  <img src="web_app/assets/figs/web_app_2.png" alt="Live Inference">
+  <figcaption align="center"><sub>Live Inference</sub></figcaption>
+</figure>
 
 ### Launch Instructions
 ```bash
