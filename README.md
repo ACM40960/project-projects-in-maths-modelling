@@ -339,17 +339,27 @@ Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, e
 ##  Documentation
 
 ### Detailed Component Documentation
-- **[Scripts](scripts/README.md)**: Training and preprocessing utilities
-- **[Evaluation](eval/README.md)**: Metrics and analysis results  
-- **[Web App](web_app/README.md)**: Application setup and features
+- **[Scripts](scripts/)**: Training and preprocessing utilities
+- **[Evaluation](eval/)**: Metrics and analysis results  
+- **[Web App](web_app/)**: Application setup and features
 
 ### Key Notebooks
 | Notebook | Purpose |
 |----------|---------|
-| `evaluation.ipynb` | **Complete model comparison & training analysis** |
-| `verification.ipynb` | **End-to-end pipeline testing on verification set** |
-| `notebooks/eda_and_dataset_prep.ipynb` | **Dataset exploration & preprocessing** |
+| [Evaluation](evaluation.ipynb) | **Complete model comparison & training analysis** |
+| [Verification](verification.ipynb) | **End-to-end pipeline testing on verification set** |
+| [EDA](notebooks/eda_and_dataset_prep.ipynb) | **Dataset exploration & preprocessing** |
 
+
+### Full Evaluation Notebooks
+| Notebook | Purpose |
+|----------|---------|
+| **Classifier Stage** | **Complete evaluation on experimented classifiers as 2nd stage** |
+| **Detector Stage** | **Evaluation on MegadetectorV6 model as as 1st stage** |
+| **Single Stage** | **Complete evaluation on experimented single stage models** |
+| **Full Pipeline** | **Complete Evaluation of Full 2-Stage Pipeline** |
+
+*For detailed information about each notebook, see the individual README file **[here](eval/)** * .
 
 
 ##  Technical Approach
@@ -361,7 +371,6 @@ Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, e
 4. **Domain Robustness**: Locating "something alive" generalizes better than specific species recognition
 
 ### Novel Contributions
-- **Progressive Augmentation Scheduling**: Gradual intensity increase during training
 - **Tail-Aware Training**: Specialized augmentation banks for rare species
 - **Cross-Domain Evaluation**: Comprehensive analysis of location generalization
 
@@ -414,14 +423,13 @@ If you use this work in your research, please cite:
 ##  Quick Navigation
 
 **Want to dive right in?**
--  **[Web App]([web_app/](https://wildlife-cameratrap.streamlit.app/))** - Interactive demo
--  **[View Results](evaluation.ipynb)** - Complete analysis  
--  **[Test Pipeline](verification.ipynb)** - End-to-end verification
--  **[Read Methods](eval/README.md)** - Technical details
+-  **[Web App](https://wildlife-cameratrap.streamlit.app/)** - Interactive demo
+-  **[View Results](evaluation.ipynb)** - Complete evaluation analysis  
+-  **[Test Pipeline](verification.ipynb)** - End-to-end verification set analysis
+-  **[EDA](notebooks/eda_and_dataset_prep.ipynb)** - Exploratory Data Analysis
 
 **For researchers:**
--  **[Training Scripts](scripts/README.md)** - Reproduce experiments
--  **[Evaluation Metrics](reports/)** - Detailed performance analysis
+-  **[Training Scripts](scripts/README.md)** - Experiments
 
 ---
 
