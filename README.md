@@ -136,14 +136,41 @@ If you use this dataset, please cite:
 - **Location bias**: Background-dependent features
 
 <p align="center">
-  <img src="web_app/assets/example_1.jpg" alt="Sample 1" width="45%"/>
-  <img src="web_app/assets/example_2.jpg" alt="Sample 2" width="45%"/>
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="web_app/assets/example_1.jpg" alt="Sample 1" width="45%"/>
+    <figcaption align="center"><sub>Seen (in-domain) Example — Squirrel, daylight</sub></figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="web_app/assets/example_2.jpg" alt="Sample 2" width="45%"/>
+    <figcaption align="center"><sub>Unseen (out-of-domain) Example — Dog, night IR</sub></figcaption>
+  </figure>
 </p>
 
 
 ##  Methodology
 
-# Experiment
+### Experiments (Brief Overview)
+We evaluated multiple detection and classification strategies before arriving at our final two-stage pipeline.  
+For full results, charts, and training details, see the see the **[Web Application](#web-application)** and **[Evaluation Notebook](#evaluation-notebook)** sections.
+
+1. **Single-stage detectors**  
+   Benchmarked **YOLOv8** and **MegaDetector-v6** on the 14-species CCT subset (includes "car").  
+   - MegaDetector-v6 achieved the highest overall metrics and smallest domain-shift drop (ΔF1 ≈ 0.16).  
+   - YOLOv8 with *medium augmentation* was the strongest YOLO variant, but still lagged MDv6 by ~7 mAP on unseen sites.
+
+![Single-Stage Detector Metrics](web_app/assets/single_stage_comparison.png)
+*Comparison of Recall, F1 Score, mAP50, and Precision for CIS (in-domain) vs TRANS (out-of-domain) locations.*
+
+2. **Two-stage pipeline**  
+   **Stage 1** – Retrained MDv6 (animal vs vehicle) for high recall.  
+   **Stage 2** – Fine-tuned **ConvNeXt-Small** for species classification, using class-balanced focal loss and tail-focused augmentations.  
+   - Achieved F1 = **0.903** (CIS) and **0.773** (TRANS), reducing the cross-domain gap by ~27% while maintaining high rare-species recall.
+  
+![**Stage 1** - Detector Metrics](web_app/assets/detector_experiment.png)
+*Comparison of Recall, F1 Score, mAP50, mAP50-95 and Precision for CIS (in-domain) vs TRANS (out-of-domain) locations.*
+  
+![**Stage 2** - Classifier Metrics](web_app/assets/classifier_stage_comparison.png)
+*Comparison of Recall, F1 Score, Accuracy, and Precision for CIS (in-domain) vs TRANS (out-of-domain) locations.*
 
 ### Architecture Overview
 
@@ -164,7 +191,6 @@ If you use this dataset, please cite:
 ![ConvNeXt Architecture](web_app/assets/figs/convnext.png)
 
 ### Technical Innovations
-- **Progressive Augmentation**: Cosine-scheduled intensity ramping
 - **Class-Balanced Focal Loss**: Addresses long-tail distribution
 - **Domain-Aware Training**: Freeze-unfreeze scheduling
 - **Confidence Gating**: Two-threshold system for robustness
@@ -173,27 +199,22 @@ If you use this dataset, please cite:
 
 ### Domain Shift Performance
 
-![Results Comparison](web_app/assets/domainshift_delta_f1.png) <!-- Suggested: Bar chart comparing single-stage vs two-stage -->
+![Results Comparison](web_app/assets/domainshift_delta_f1.png)
+*Each result represents the best-performing run for that model.*
 
-### Single-Stage Baselines
+### Cross-Domain Model Performances 
 
-| Model | CIS F1 | TRANS F1 | Domain Gap |
-|-------|---------|----------|------------|
-| YOLOv8 (baseline) | 0.65 | 0.40 | 0.25 |
-| YOLOv8 (medium aug) | 0.77 | 0.52 | 0.25 |
-| MegaDetector v6 | 0.79 | 0.63 | 0.16 |
-
-### Two-Stage Pipeline
-
-| Component | CIS F1 | TRANS F1 | Gap Reduction |
-|-----------|---------|----------|---------------|
-| **Full Pipeline** | **0.90** | **0.77** | **27.5% vs best single-stage** |
-
-![Performance Metrics](assets/performance_charts.png) <!-- Your existing F1/Precision/Recall charts -->
+![Performance Metrics](web_app/assets/experiments_results.png)
+*Each result represents the best-performing run for that model.*
 
 ### Per-Species Analysis
 
-![Confusion Matrix](assets/confusion_matrices.png) <!-- Your existing confusion matrices -->
+<p align="center">
+  <img src="eval/pipeline_results/eval_reports/cis_test_confusion_matrix.png" alt="CIS Confusion Matrix" width="48%"/>
+  <img src="eval/pipeline_results/eval_reports/trans_test_confusion_matrix.png" alt="TRANS Confusion Matrix" width="48%"/>
+</p>
+
+*Confusion matrices for test splits, CIS (in-domain) and TRANS (out-of-domain) using the final pipeline: MegaDetector v6 + ConvNeXt-Small.*
 
 *Detailed per-class metrics available in the [evaluation notebook](evaluation.ipynb)*
 
@@ -203,21 +224,42 @@ If you use this dataset, please cite:
 ```bash
 streamlit run web_app/app.py
 ```
-- **Interactive inference**: Upload images for real-time prediction
-- **Species gallery**: Browse examples by species
-- **Performance metrics**: Live comparison with ground truth
+An interactive app with project details and live inference, for more please see the **[Web Application](#web-application)** section.
 
 ### 2. Evaluation Notebook
 
-- **Complete model comparison**: Single-stage vs two-stage results
-- **Training diagnostics**: Loss curves and validation metrics  
-- **Domain shift analysis**: CIS vs TRANS performance breakdown
+**Camera-Trap Detection & Classification — End-to-End Project Notebook**
 
-### 3. Verification Notebook  
+A full walkthrough of the project, covering the entire modelling process from single-stage baselines to the final two-stage pipeline.
 
-- **End-to-end pipeline testing**: Pre-computed results on verification set
-- **Visual inspection**: Ground truth vs prediction overlays
-- **Threshold analysis**: Confidence score distributions
+**Inside you’ll find:**
+- **Model development:** YOLOv8 variants, retrained MegaDetector-v6 (animal vs vehicle), and fine-grained classifiers (ConvNeXt-Small, EfficientNetV2).
+- **Training diagnostics:** Loss curves, validation trends, and augmentation schedules.
+- **Quantitative evaluation:** Precision, Recall, F1, mAP-50, CIS vs TRANS breakdowns, per-class metrics.
+- **Confusion-matrix analysis:** Side-by-side heatmaps with insights on rare-class and look-alike errors.
+- **End-to-end pipeline testing:** Detector → Classifier with confidence gating and threshold tuning.
+
+*Data covers 14 animal classes + vehicle, with CIS (in-domain) and TRANS (unseen) splits. For the spoiler-free summary, the final pipeline reaches >94 % weighted F1 on unseen sites.*
+[Open Evaluation Notebook](evaluation_notebook.ipynb)
+
+---
+
+### 3. Verification Notebook
+
+**Verification Notebook Walkthrough**
+
+An evaluation-only notebook for the final two-stage model (**MegaDetector v6 + ConvNeXt-Small**), run on two held-out verification splits.
+
+**What it does:**
+- **Stage 1 – Detection:** MegaDetector v6 (ONNX) locates animals and vehicles at a low threshold (0.35) to favour recall.
+- **Stage 2 – Classification:** ConvNeXt-Small (ONNX) refines animal detections into 13 species, rejecting low-confidence crops (≥ 0.55 threshold).
+- **Metrics:** Precision, Recall, F1, mAP, per-class accuracy, CIS–TRANS accuracy deltas.
+- **Qualitative checks:** Side-by-side overlays of ground truth vs predictions for random samples.
+- **Matching rules:** IoU ≥ 0.30 or ≥ 60 % GT box enclosed.
+
+*All detections and metrics are cached for instant reproduction; thresholds were grid-searched and fixed for this study.*
+[Open Verification Notebook](./verification_notebook.ipynb)
+
 
 ##  Project Structure
 
@@ -238,22 +280,22 @@ wildlife-camera-trap-classification/
 ├──  models/                     # Exported ONNX models
 │   ├── megadetectorv6.onnx       # Animal/vehicle detector
 │   └── convnext_classifier.onnx   # Species classifier
-├── 📁 notebooks/                  # Jupyter notebooks
+├──  notebooks/                  # Jupyter notebooks
 │   └── eda_and_dataset_prep.ipynb # Exploratory data analysis
-├── 📁 reports/                    # Generated evaluation reports of full pipeline (Verification set)
-├── 📁 scripts/                    # Training & preprocessing scripts
+├──  reports/                    # Generated evaluation reports of full pipeline (Verification set)
+├──  scripts/                    # Training & preprocessing scripts
 │   ├── augmentation/              # Data augmentation pipelines
 │   ├── dataset/                   # Dataset preparation utilities
 │   └── train/                     # Model training scripts
-├── 📁 web_app/                    # Streamlit web application
-├── 📄 evaluation.ipynb            # Complete model evaluation
-├── 📄 verification.ipynb          # Pipeline verification
-├── 📄 requirements.txt            # Python dependencies
-└── 📄 README.md                   # This file
+├──  web_app/                    # Streamlit web application
+├──  evaluation.ipynb            # Complete model evaluation
+├──  verification.ipynb          # Pipeline verification
+├──  requirements.txt            # Python dependencies
+└──  README.md                   # This file
 └── Project_Poster.pdf              # Poster Presentation of project
 ```
 
-*For detailed information about each component, see the individual README files in each folder.*
+*For detailed information about each component consists info, see the individual README files in each folder **[here](#Documentation)** * .
 
 ##  Web Application
 
@@ -265,17 +307,20 @@ wildlife-camera-trap-classification/
 
 ### Demo Screenshots
 
-![Web App Demo](assets/webapp_demo.png) <!-- Suggested: Screenshot of your Streamlit app -->
+<p align="center">
+  <img src="web_app/assets/figs/web_app_1.png" alt="Project Details" width="48%"/>
+  <img src="web_app/assets/figs/web_app_2.png" alt="Live Inference" width="48%"/>
+</p>
 
 ### Launch Instructions
 ```bash
-cd web_app/
-streamlit run app.py
+cd project-projects-in-maths-modelling/
+streamlit run web_app/main.py
 ```
 
 Navigate to `http://localhost:8501` to access the application.
 
-OR
+**OR**
 
 Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, easy.
 
@@ -338,10 +383,10 @@ If you use this work in your research, please cite:
 
 ##  Author
 
-**[Şükrü Deniz Çilek]**
+**Şükrü Deniz Çilek**
 -  Email: [ukru.cilek@ucdconnect.ie](mailto:ukru.cilek@ucdconnect.ie)
 -  LinkedIn: [https://www.linkedin.com/in/denizcilek/](https://www.linkedin.com/in/denizcilek/)
--  Institution: [University College Dublin], M.Sc. Data & Computational Science
+-  Institution: University College Dublin, M.Sc. Data & Computational Science
 
 ---
 
@@ -357,7 +402,7 @@ If you use this work in your research, please cite:
 ##  Quick Navigation
 
 **Want to dive right in?**
--  **[Run Web App](web_app/)** - Interactive demo
+-  **[Web App]([web_app/](https://wildlife-cameratrap.streamlit.app/))** - Interactive demo
 -  **[View Results](evaluation.ipynb)** - Complete analysis  
 -  **[Test Pipeline](verification.ipynb)** - End-to-end verification
 -  **[Read Methods](eval/README.md)** - Technical details
