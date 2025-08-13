@@ -1,13 +1,19 @@
+
+<p align="center">
+  <img src="web_app/assets/coyote.png" alt="Project Banner" width="300"/>
+</p>
+
 # Wildlife Camera-Trap Species Classification & Domain-Shift Study
 
 > **Robust wildlife species recognition in challenging camera-trap imagery with focus on domain shift**
 
-![Project Banner](assets/banner_image.jpg) <!-- Suggested: A compelling image showing camera-trap setup or wildlife montage -->
+ 
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org/)
 [![ONNX](https://img.shields.io/badge/ONNX-Runtime-green.svg)](https://onnxruntime.ai/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
+[![Web App](https://img.shields.io/badge/Try%20the%20App-Online-green.svg)](https://wildlife-detector.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ##  Table of Contents
@@ -33,7 +39,7 @@ Camera-traps generate millions of images annually for wildlife monitoring, but m
 A **two-stage pipeline** that achieves state-of-the-art cross-domain performance:
 
 ```
-Raw Image →  MegaDetector v6 →  ConvNeXt Classifier → 🏷 Species Label
+Raw Image →  MegaDetector v6 →  ConvNeXt Classifier →  Species Label
 ```
 
 ### Key Innovation
@@ -57,7 +63,7 @@ Raw Image →  MegaDetector v6 →  ConvNeXt Classifier → 🏷 Species Label
 
 ### Prerequisites
 - Python 3.11+
-- requirements.txt dependencies
+- Dependencies (requirements.txt)
 
 ### Installation
 ```bash
@@ -85,6 +91,7 @@ streamlit run web_app/app.py
 evaluation.ipynb
 verification.ipynb
 ```
+[Web App](https://wildlife-cameratrap.streamlit.app/)
 
 ## Dataset
 
@@ -270,7 +277,7 @@ Navigate to `http://localhost:8501` to access the application.
 
 OR
 
-Go to this deployed website, easy. -> https://wildlife-cameratrap.streamlit.app/
+Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, easy.
 
 ##  Documentation
 
