@@ -243,7 +243,7 @@ A full walkthrough of the project, covering the entire modelling process from si
 - **End-to-end pipeline testing:** Detector → Classifier with confidence gating and threshold tuning.
 
 *Data covers 14 animal classes + vehicle, with CIS (in-domain) and TRANS (unseen) splits. For the spoiler-free summary, the final pipeline reaches >94 % weighted F1 on unseen sites.*
-[Open Evaluation Notebook](evaluation_notebook.ipynb)
+[Open Evaluation Notebook](evaluation.ipynb)
 
 ---
 
@@ -261,7 +261,7 @@ An evaluation-only notebook for the final two-stage model (**MegaDetector v6 + C
 - **Matching rules:** IoU ≥ 0.30 or ≥ 60 % GT box enclosed.
 
 *All detections and metrics are cached for instant reproduction; thresholds were grid-searched and fixed for this study.*
-[Open Verification Notebook](./verification_notebook.ipynb)
+[Open Verification Notebook](verification.ipynb)
 
 
 ##  Project Structure
@@ -310,15 +310,19 @@ wildlife-camera-trap-classification/
 
 ### Demo Screenshots
 
-<figure>
-  <img src="web_app/assets/figs/web_app_1.png" alt="Project Details">
-  <figcaption align="center"><sub>Project Details</sub></figcaption>
-</figure>
+<div align="center" style="margin:0 0 28px;">
+  <img src="web_app/assets/figs/web_app_1.png"
+       alt="Project Details"
+       style="max-width:100%; height:auto; display:block;">
+  <div style="margin-top:8px;"><sub>Project Details</sub></div>
+</div>
 
-<figure>
-  <img src="web_app/assets/figs/web_app_2.png" alt="Live Inference">
-  <figcaption align="center"><sub>Live Inference</sub></figcaption>
-</figure>
+<div align="center" style="margin:0 0 28px;">
+  <img src="web_app/assets/figs/web_app_2.png"
+       alt="Live Inference"
+       style="max-width:100%; height:auto; display:block;">
+  <div style="margin-top:8px;"><sub>Live Inference</sub></div>
+</div>
 
 ### Launch Instructions
 ```bash
