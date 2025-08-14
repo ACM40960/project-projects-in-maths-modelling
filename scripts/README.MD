@@ -2,6 +2,38 @@
 
 This folder holds the code I actually used to build datasets and train models for camera‑trap images. I wrote this README so you can **understand each script without opening it**: what it does, why I did it that way, what it expects in/out, and how to run it.
 
+## Scripts Overview
+
+This folder contains the complete pipeline I built for my camera trap image analysis experiments. My research focused on improving wildlife detection and classification in challenging camera trap conditions, particularly addressing two key problems: **domain shift** (cameras deployed in different environments) and **long-tail class distribution** (many rare species with few examples).
+
+### Experimental Design
+
+My approach involved three main experimental tracks:
+
+**1. Progressive Augmentation for Detection**
+I hypothesized that gradually increasing augmentation intensity during YOLOv8 training would help the detector adapt to camera trap challenges (IR imagery, motion blur, occlusion, weather effects) without overwhelming the learning process early on. The `train_yolov8.py` script implements this with a cosine schedule that ramps up my custom Albumentations pipeline, compared against a baseline YOLOv8 without progressive augmentation.
+
+**2. Addressing Long-Tail Species Distribution** 
+Many wildlife species appear in <50 images while common species have 1000+. I tested multiple approaches across different model types:
+- Offline oversampling with realistic compositing (`balance_class.py`)
+- Weighted sampling during training
+- Tail-aware augmentation for classifiers (stronger transforms for rare classes)
+- Class-balanced focal loss for classification
+
+**3. Multi-Stage Detection + Classification Pipeline**
+Following the MegaDetector approach, I trained binary detectors (animal/vehicle) first, then species classifiers on crops. This allowed me to leverage different architectures optimally - YOLO variants for detection, ConvNeXt/EfficientNet+CBAM for fine-grained classification.
+
+### Key Experimental Innovations
+
+- **Domain harmonization** in synthetic augmentation (matching IR/RGB domains during compositing)
+- **Progressive training schedules** (YOLOv8 only) with backbone freezing → unfreezing + LR reduction
+- **Collision-aware object placement** for realistic synthetic scenes
+- **Multi-scale CBAM attention** integrated into EfficientNet for better feature focus
+
+The scripts represent multiple training iterations where I refined augmentation schedules for YOLOv8, tested different attention mechanisms (single vs 3-layer CBAM), and compared binary vs multi-class detection strategies. Each script contains the final optimized version of these experiments.
+
+---
+
 Subfolders:
 
 * **augmentation/** – data augmentation and offline balancing
