@@ -104,7 +104,7 @@ pip install -r requirements.txt
 ### Quick Demo
 ```bash
 # Run the web application
-streamlit run web_app/app.py
+streamlit run web_app/main.py
 
 # Or run evaluation-verification notebook
 evaluation.ipynb
