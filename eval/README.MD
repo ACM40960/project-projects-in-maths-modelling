@@ -11,6 +11,7 @@ All evaluations use COCO-style ground truth annotations and generate detailed me
 - Evaluates **MegaDetector v6** object detection performance.
 - Metrics: mAP@50, mAP@50–95, precision, recall, F1-score, per-class AP.
 - Includes visual comparisons of predicted vs. ground truth boxes.
+
 [Open Notebook](evaluation_detector.ipynb)
 
 ### 2. `evaluation_classifier.ipynb`
@@ -19,15 +20,21 @@ All evaluations use COCO-style ground truth annotations and generate detailed me
 - Metrics: per-class precision, recall, F1-score, accuracy, weighted/macro averages.
 - Outputs confusion matrices and per-class reports.
 
+[Open Notebook](evaluation_classifier.ipynb)
+
 ### 3. `evaluation_pipeline.ipynb`
 - Evaluates the **full two-stage pipeline**: MegaDetector → ConvNeXt classifier.
 - Measures end-to-end detection + classification accuracy.
 - Computes per-class accuracies, weighted/macro F1, and matching rates.
 - Saves confusion matrices, classification reports, and unmatched predictions.
 
+[Open Notebook](evaluation_pipeline.ipynb)
+
 ### 4. `evaluation_singleStage.ipynb`
 - Evaluates **single-stage** YOLOv8 and MegaDetectorV6 models (direct detection + classification).
 - Metrics: mAP, per-class accuracy, confusion matrices.
+
+[Open Notebook](evaluation_singleStage.ipynb)
 
 ---
 
