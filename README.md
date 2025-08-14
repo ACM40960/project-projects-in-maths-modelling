@@ -30,7 +30,6 @@
 - [ Results](#results)
 - [ Running the Project](#running-the-project)
 - [ Project Structure](#project-structure)
-- [ Web Application](#web-application)
 - [ Documentation](#documentation)
 - [ Contributing](#contributing)
 - [ License](#license)
@@ -314,7 +313,7 @@ For full results, charts, and training details, see the **[Web Application](#web
 cd project-projects-in-maths-modelling/
 streamlit run web_app/app.py
 ```
-# Navigate to http://localhost:8501
+Navigate to http://localhost:8501
 
 
 ### 2. Evaluation Notebook
