@@ -22,12 +22,14 @@
 [![Web App](https://img.shields.io/badge/Try%20the%20App-Online-green.svg)](https://wildlife-detector.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+
 ##  Table of Contents
 - [ Project Overview](#project-overview)
 - [ Quick Start](#quick-start)
 - [ Dataset](#dataset)
 - [ Methodology](#methodology)
 - [ Results](#results)
+- [ Future Work](#Future-Work)
 - [ Running the Project](#running-the-project)
 - [ Project Structure](#project-structure)
 - [ Documentation](#documentation)
@@ -276,6 +278,19 @@ For full results, charts, and training details, see the **[Running The Project](
 *Confusion matrices for test splits, CIS (in-domain) and TRANS (out-of-domain) using the final pipeline: MegaDetector v6 + ConvNeXt-Small.*
 
 *Detailed per-class metrics available in the [evaluation notebook](evaluation.ipynb)*
+
+## Future Work  
+
+This project demonstrates strong performance under domain shift, but there are several promising directions for further exploration:  
+
+- **Dataset Expansion**: Incorporate additional camera-trap datasets (e.g., Snapshot Serengeti, WCS datasets) to test large-scale generalization.  
+- **Multi-Modal Inputs**: Explore metadata (time, location, season) alongside images for improved classification.  
+- **Semi-Supervised Learning**: Leverage unlabeled camera-trap data using self-supervised or pseudo-labeling methods.  
+- **Model Variants**: Experiment with **Vision Transformers** (ViTs) and hybrid ConvNet-Transformer backbones for species classification.  
+- **On-Device Inference**: Optimize the final ONNX pipeline for edge deployment (e.g., NVIDIA Jetson, Raspberry Pi).  
+- **Active Learning**: Incorporate human-in-the-loop strategies to iteratively refine predictions on rare or uncertain cases.  
+- **Zero-Shot Recognition**: Evaluate large vision-language models (e.g., CLIP, BioCLIP) for recognizing unseen species.  
+
 
 ##  Running the Project
 
