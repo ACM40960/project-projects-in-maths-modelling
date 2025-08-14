@@ -2,7 +2,7 @@
 
 This folder holds the code I actually used to build datasets and train models for camera‑trap images. I wrote this README so you can **understand each script without opening it**: what it does, why I did it that way, what it expects in/out, and how to run it.
 
-## Scripts Overview
+## Overview
 
 This folder contains the complete pipeline I built for my camera trap image analysis experiments. My research focused on improving wildlife detection and classification in challenging camera trap conditions, particularly addressing two key problems: **domain shift** (cameras deployed in different environments) and **long-tail class distribution** (many rare species with few examples).
 
@@ -34,11 +34,11 @@ The scripts represent multiple training iterations where I refined augmentation 
 
 ---
 
-Subfolders:
+### Subfolders
 
-* **augmentation/** – data augmentation and offline balancing
-* **dataset/** – preparing/patching/reshaping datasets
-* **train/** – training scripts for detectors and classifiers
+- [**augmentation/**](#augmentation) – data augmentation strategies and offline class balancing  
+- [**dataset/**](#dataset) – dataset preparation, patching, and reshaping utilities  
+- [**train/**](#train) – training scripts for detectors and classifiers 
 
 ---
 
