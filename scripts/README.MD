@@ -36,9 +36,9 @@ The scripts represent multiple training iterations where I refined augmentation 
 
 ### Subfolders
 
-- [**augmentation/**](##augmentation) – data augmentation strategies and offline class balancing  
-- [**dataset/**](##dataset) – dataset preparation, patching, and reshaping utilities  
-- [**train/**](##train) – training scripts for detectors and classifiers 
+- [**augmentation/**](#augmentation) – data augmentation strategies and offline class balancing  
+- [**dataset/**](#dataset) – dataset preparation, patching, and reshaping utilities  
+- [**train/**](#training) – training scripts for detectors and classifiers 
 
 ---
 
