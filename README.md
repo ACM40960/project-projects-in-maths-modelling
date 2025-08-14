@@ -224,10 +224,26 @@ For full results, charts, and training details, see the **[Web Application](#web
 
 ![ConvNeXt Architecture](web_app/assets/figs/convnext.png)
 
-### Technical Innovations
+###  Technical Approach
+
+### Why Two-Stage Pipeline?
+1. **Decoupled Optimization**: Detection and classification trained separately
+2. **Background Invariance**: Cropping reduces location-specific bias
+3. **Modular Design**: Components can be upgraded independently  
+4. **Domain Robustness**: Locating "something alive" generalizes better than specific species recognition
+
+### Key Innovations
 - **Class-Balanced Focal Loss**: Addresses long-tail distribution
 - **Domain-Aware Training**: Freeze-unfreeze scheduling
 - **Confidence Gating**: Two-threshold system for robustness
+
+###  Key Achievements
+
+-  **State-of-the-art** cross-domain performance on CCT20 benchmark
+-  **27.5% error reduction** on unseen locations vs. best baseline
+-  **High recall maintenance** for rare species under domain shift
+-  **Production-ready** ONNX models with web interface
+
 
 ##  Results
 
@@ -397,25 +413,6 @@ Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, e
 
 *For detailed information about each evaluation notebook, see the individual README file **[here](eval/)** * .
 
-
-##  Technical Approach
-
-### Why Two-Stage Pipeline?
-1. **Decoupled Optimization**: Detection and classification trained separately
-2. **Background Invariance**: Cropping reduces location-specific bias
-3. **Modular Design**: Components can be upgraded independently  
-4. **Domain Robustness**: Locating "something alive" generalizes better than specific species recognition
-
-### Novel Contributions
-- **Tail-Aware Training**: Specialized augmentation banks for rare species
-- **Cross-Domain Evaluation**: Comprehensive analysis of location generalization
-
-##  Key Achievements
-
--  **State-of-the-art** cross-domain performance on CCT20 benchmark
--  **27.5% error reduction** on unseen locations vs. best baseline
--  **High recall maintenance** for rare species under domain shift
--  **Production-ready** ONNX models with web interface
 
 ## Contributing
 
