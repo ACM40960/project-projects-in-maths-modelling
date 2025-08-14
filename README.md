@@ -435,7 +435,7 @@ wildlife-camera-trap-classification/
 *For detailed information about each evaluation notebook, see the individual README file **[here](eval/)** * .
 
 ### Project Poster
-You can view the poster presentation of this project here: [Project_Poster.pdf](Project_Poster.pdf)
+You can view the poster presentation of this project here: [Project Poster](Project_Poster.pdf)
 
 
 ## Contributing
