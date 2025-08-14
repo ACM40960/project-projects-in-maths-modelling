@@ -3,7 +3,11 @@
   <img src="web_app/assets/coyote.png" alt="Project Banner" width="300"/>
 </p>
 
+<div align="center">
+
 # Wildlife Camera-Trap Species Classification & Domain-Shift Study
+
+</div>
 
 > **Robust wildlife species recognition in challenging camera-trap imagery with focus on domain shift**
 
