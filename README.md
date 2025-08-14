@@ -81,6 +81,11 @@ Stage 2: **ConvNeXt classifier** identifies animal species.
 
 ### Installation
 ```bash
+# (Optional but recommended) Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+
 # Install Git LFS (only once on your system)
 git lfs install
 
@@ -178,7 +183,7 @@ If you use this dataset, please cite:
 
 ##  Methodology
 
-### Experiments (Brief Overview)
+### Experiments Overview
 We evaluated multiple detection and classification strategies before arriving at our final two-stage pipeline.  
 For full results, charts, and training details, see the **[Web Application](#web-application)**, **[Evaluation Notebook](#evaluation-notebook)** sections and for further **[Scripts](scripts/)** folder.
 
@@ -429,7 +434,7 @@ How to contribute:
 *Even small improvements (polishing figures or fixing code formatting) are valuable!* 
 
 
-##  Licensew
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
