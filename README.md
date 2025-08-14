@@ -145,7 +145,7 @@ The full Caltech Camera Traps dataset contains approximately 243,000 images from
 | Benchmark Images | 6 GB | [Download](https://storage.googleapis.com/public-datasets-lila/caltechcameratraps/eccv_18_all_images_sm.tar.gz) |
 | Metadata & Splits | 3 MB | [Download](https://storage.googleapis.com/public-datasets-lila/caltechcameratraps/eccv_18_annotations.tar.gz) |
 
-More details: [Caltech Camera Traps Project Page](https://beerys.github.io/CaltechCameraTraps/)
+More details: [Caltech Camera Traps Page](https://beerys.github.io/CaltechCameraTraps/)
 
 ### Citation
 If you use this dataset, please cite:
@@ -329,7 +329,7 @@ A full walkthrough of the project, covering the entire modelling process from si
 - **Confusion-matrix analysis:** Side-by-side heatmaps with insights on rare-class and look-alike errors.
 - **End-to-end pipeline testing:** Detector → Classifier with confidence gating and threshold tuning.
 
-*Data covers 14 animal classes + vehicle, with CIS (in-domain) and TRANS (unseen) splits. For the spoiler-free summary, the final pipeline reaches >94 % weighted F1 on unseen sites.*
+*Data covers 13 animal classes + vehicle, with CIS (in-domain) and TRANS (unseen) splits. For the spoiler-free summary, the final pipeline reaches >94 % weighted F1 on unseen sites.*
 
 [Open Evaluation Notebook](evaluation.ipynb)
 
