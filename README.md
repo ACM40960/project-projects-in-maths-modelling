@@ -188,7 +188,7 @@ If you use this dataset, please cite:
 
 ### Experiments Overview
 We evaluated multiple detection and classification strategies before arriving at our final two-stage pipeline.  
-For full results, charts, and training details, see the **[Web Application](#web-application)**, **[Evaluation Notebook](#evaluation-notebook)** sections and for further **[Scripts](scripts/)** folder.
+For full results, charts, and training details, see the **[Running The Project](#running-the-project)** section and **[Scripts](scripts/)** folder.
 
 1. **Single-stage detectors**  
    Benchmarked **YOLOv8** and **MegaDetector-v6** on the 14-species CCT subset (includes "car").  
