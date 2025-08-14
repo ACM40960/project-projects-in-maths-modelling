@@ -12,6 +12,8 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org/)
 [![ONNX](https://img.shields.io/badge/ONNX-Runtime-green.svg)](https://onnxruntime.ai/)
+[![YOLO](https://img.shields.io/badge/YOLO-v8-black.svg)](https://github.com/ultralytics/ultralytics)
+[![timm](https://img.shields.io/badge/timm-0.9+-purple.svg)](https://github.com/huggingface/pytorch-image-models)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
 [![Web App](https://img.shields.io/badge/Try%20the%20App-Online-green.svg)](https://wildlife-detector.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -21,14 +23,15 @@
 - [ Quick Start](#quick-start)
 - [ Dataset](#dataset)
 - [ Methodology](#methodology)
-- [ Results](#-results)
-- [ Running the Project](#-running-the-project)
-- [ Project Structure](#-project-structure)
-- [ Web Application](#-web-application)
-- [ Documentation](#-documentation)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Author](#-author)
+- [ Results](#results)
+- [ Running the Project](#running-the-project)
+- [ Project Structure](#project-structure)
+- [ Web Application](#web-application)
+- [ Documentation](#documentation)
+- [ Contributing](#contributing)
+- [ License](#license)
+- [ Author](#author)
+- [ Acknowledgments and References](#Acknowledgments-and-References)
 
 ##  Project Overview
 
@@ -48,6 +51,17 @@ Raw Image →  MegaDetector v6 →  ConvNeXt Classifier →  Species Label
 - **Result**: 27.5% error reduction on unseen locations vs. best single-stage baseline
 
 ![Pipeline Overview](web_app/assets/figs/pipeline.png)
+
+**What's in the diagram?**  
+
+Stage 1: **MegaDetector v6** detects animals and vehicles.  
+- Detections with confidence < 0.35 are rejected.  
+- Vehicle crops are labeled as *Car*.  
+- Animal crops are forwarded to Stage 2.  
+
+Stage 2: **ConvNeXt classifier** identifies animal species.  
+- Predictions with confidence < 0.55 are rejected as *Background*.  
+- Confident predictions are assigned to the corresponding *Animal Class*.
 
 ###  Performance Summary
 
@@ -93,11 +107,23 @@ verification.ipynb
 ```
 [Web App](https://wildlife-cameratrap.streamlit.app/)
 
+###  Quick Navigation
+
+**Want to dive right in?**
+-  **[Web App](https://wildlife-cameratrap.streamlit.app/)** - Interactive demo
+-  **[View Results](evaluation.ipynb)** - Complete evaluation analysis  
+-  **[Test Pipeline](verification.ipynb)** - End-to-end pipeline results on verification set
+-  **[EDA](notebooks/eda_and_dataset_prep.ipynb)** - Exploratory Data Analysis
+
+-  **[Training Scripts](scripts/)** - Experiments
+-  **[Evaluation Notebooks](eval/)** - Results of all experiments
+
+
 ## Dataset
 
 ### CCT20 Benchmark Subset
 The CCT20 benchmark (Beery et al., ECCV 2018) is a curated subset of the Caltech Camera Traps dataset, containing over 51,000 downsized images (max edge ≤ 1024 px) from 20 camera locations.  
-- 13 wildlife species + vehicle  
+- 15 wildlife species + vehicle (13 of them used in our project)  
 - CIS: Seen locations (train/val/test)  
 - TRANS: Unseen locations (test only), used to evaluate real-world generalization  
 
@@ -154,7 +180,7 @@ If you use this dataset, please cite:
 
 ### Experiments (Brief Overview)
 We evaluated multiple detection and classification strategies before arriving at our final two-stage pipeline.  
-For full results, charts, and training details, see the see the **[Web Application](#web-application)** and **[Evaluation Notebook](#evaluation-notebook)** sections.
+For full results, charts, and training details, see the **[Web Application](#web-application)**, **[Evaluation Notebook](#evaluation-notebook)** sections and for further **[Scripts](scripts/)** folder.
 
 1. **Single-stage detectors**  
    Benchmarked **YOLOv8** and **MegaDetector-v6** on the 14-species CCT subset (includes "car").  
@@ -270,7 +296,7 @@ An evaluation-only notebook for the final two-stage model (**MegaDetector v6 + C
 wildlife-camera-trap-classification/
 ├──  configs/                     # Training configurations
 │   ├── megadetector_test/         # MegaDetector configs
-│   ├── model/                     # Model hyperparameters  
+│   ├── model/                     # YOLO Configurations  
 │   └── test/                      # Test configurations
 ├──  data/                       # Dataset files
 │   ├── preprocessed/              # Cleaned COCO annotations
@@ -279,14 +305,18 @@ wildlife-camera-trap-classification/
 │   ├── classifier_stage/          # Species classifier results
 │   ├── single_stage/             # Single stage model results
 │   ├── detector_stage/            # Object detector results
-│   └── pipeline_results/          # End-to-end pipeline metrics
+│   ├── pipeline_results/          # End-to-end pipeline metrics
+│   ├── evaluation_classifier.ipynb            # Classifier stage eval notebook
+│   ├── evaluation_detector.ipynb            # Detector stage stage eval notebook
+│   ├── evaluation_pipeline.ipynb            # Full pipeline eval notebook
+│   └── evaluation_singleStage.ipynb            # Single-stage models eval notebook
 ├──  models/                     # Exported ONNX models
 │   ├── megadetectorv6.onnx       # Animal/vehicle detector
 │   └── convnext_classifier.onnx   # Species classifier
 ├──  notebooks/                  # Jupyter notebooks
 │   └── eda_and_dataset_prep.ipynb # Exploratory data analysis
 ├──  reports/                    # Generated evaluation reports of full pipeline (Verification set)
-├──  scripts/                    # Training & preprocessing scripts
+├──  scripts/                    # Training & preprocessing scripts (See the individual folder for further)
 │   ├── augmentation/              # Data augmentation pipelines
 │   ├── dataset/                   # Dataset preparation utilities
 │   └── train/                     # Model training scripts
@@ -303,10 +333,11 @@ wildlife-camera-trap-classification/
 ##  Web Application
 
 ### Features
-- ** Live Inference**: Real-time species prediction with confidence scores
-- ** Interactive Metrics**: Performance comparison across domains
-- ** Species Browser**: Explore predictions by species type
-- ** Visualization**: Ground truth vs prediction overlays
+- **Project Overview:** Explains the motivation, challenges, and our two-stage pipeline design.  
+- **Dataset & Experiments:** Details on CCT20 subset, training setups, and reasoning behind design choices.  
+- **Results & Comparisons:** Well-curated figures, tables, and confusion matrices for CIS vs TRANS evaluation.  
+- **Literature Context:** Background on related works and why our approach matters.  
+- **Live Inference Tab:** Test the final pipeline interactively — the app runs the detector + classifier in real-time and shows predictions vs ground truth.
 
 ### Demo Screenshots
 
@@ -359,7 +390,7 @@ Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, e
 | **Single Stage** | **Complete evaluation on experimented single stage models** |
 | **Full Pipeline** | **Complete Evaluation of Full 2-Stage Pipeline** |
 
-*For detailed information about each notebook, see the individual README file **[here](eval/)** * .
+*For detailed information about each evaluation notebook, see the individual README file **[here](eval/)** * .
 
 
 ##  Technical Approach
@@ -381,10 +412,24 @@ Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, e
 -  **High recall maintenance** for rare species under domain shift
 -  **Production-ready** ONNX models with web interface
 
-##  Contributing
+## Contributing
+
+Contributions are welcome to improve the app, extend experiments, or refine documentation.  
+You can help by:  
+- **Enhancing features:** Add new visualizations, metrics, or UI improvements.  
+- **Extending experiments:** Try different datasets, architectures, or augmentation strategies.  
+- **Improving documentation:** Clearer explanations, figures, or setup instructions.  
+- **Adding models/datasets:** Integrate new classifiers or apply the pipeline to other wildlife benchmarks.  
+
+How to contribute:  
+1. Fork the repository and create a new branch.  
+2. Commit your changes with a clear description.  
+3. Open a pull request to share your work.  
+
+*Even small improvements (polishing figures or fixing code formatting) are valuable!* 
 
 
-##  License
+##  Licensew
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -411,25 +456,38 @@ If you use this work in your research, please cite:
 
 ---
 
-##  Acknowledgments
+##  Acknowledgments and References
 
 - **Microsoft AI for Earth** for MegaDetector v6
 - **Caltech Camera Traps** team for the CCT20 dataset
 - **Meta AI Research** for ConvNeXt architecture
 - **Ultralytics** for YOLOv8 framework
 
----
+### References
 
-##  Quick Navigation
+- Beery, S., Van Horn, G., & Perona, P. (2018). **Recognition in Terra Incognita.**  
+  *Proceedings of the European Conference on Computer Vision (ECCV)*, 472–489.  
+  [https://doi.org/10.1007/978-3-030-01270-0_28](https://doi.org/10.1007/978-3-030-01270-0_28)
 
-**Want to dive right in?**
--  **[Web App](https://wildlife-cameratrap.streamlit.app/)** - Interactive demo
--  **[View Results](evaluation.ipynb)** - Complete evaluation analysis  
--  **[Test Pipeline](verification.ipynb)** - End-to-end verification set analysis
--  **[EDA](notebooks/eda_and_dataset_prep.ipynb)** - Exploratory Data Analysis
+- Norouzzadeh, M. S., Nguyen, A., Kosmala, M., Swanson, A., Palmer, M. S., Packer, C., & Clune, J. (2018).  
+  **Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning.**  
+  *PNAS*, 115(25), E5716–E5725.  
 
-**For researchers:**
--  **[Training Scripts](scripts/README.md)** - Experiments
+- Microsoft AI for Earth. (2023). **MegaDetector v6 Release Notes.**  
+  [https://github.com/microsoft/CameraTraps](https://github.com/microsoft/CameraTraps)
+
+- Liu, Z., Mao, H., Wu, C.-Y., Feichtenhofer, C., Darrell, T., & Xie, S. (2022). **A ConvNet for the 2020s.**  
+  *CVPR 2022.*  
+
+- Cui, Y., Jia, M., Lin, T.-Y., Song, Y., & Belongie, S. (2019). **Class-Balanced Loss Based on Effective Number of Samples.**  
+  *CVPR 2019.*  
+
+- Cunha, M. S., et al. (2023). **Strategies for long-tailed visual recognition.**  
+  *Pattern Recognition*, 138, 109398.  
+
+- Mustafić, S., et al. (2024). **Species Detection & Classification from Camera Trap Data.**  
+  *Ecological Informatics*, 76, 102379. 
+
 
 ---
 
