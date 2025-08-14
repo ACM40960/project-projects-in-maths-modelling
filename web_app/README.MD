@@ -15,7 +15,7 @@ The web app serves multiple purposes:
 ### Local Development
 ```bash
 # From project root
-streamlit run web_app/app.py
+streamlit run web_app/main.py
 ```
 
 ### Live Demo
@@ -36,7 +36,7 @@ web_app/
 
 ## Core Components
 
-### `app.py` - Main Application
+### `main.py` - Main Application
 
 **Two-tab interface:**
 
@@ -97,11 +97,6 @@ predictions = predictor.predict(image_path)
 ### `diagrams.py` - Architecture Visualization (Utility)
 
 **Purpose**: Extract and document ONNX model architectures for educational presentation
-
-**Usage:**
-```python
-export_onnx_diagram("models/convnext_classifier.onnx", "assets/figs/convnext_arch.txt")
-```
 
 **Output**: Text-based layer breakdown showing:
 - Layer sequence and operations
@@ -180,11 +175,11 @@ ASSETS = web_app / "assets"
 
 **Additional visualizations:**
 1. Generate plots/diagrams and save to `assets/figs/`
-2. Reference in `app.py` using `fig()` helper function
+2. Reference in `main.py` using `fig()` helper function
 3. Add explanatory text in the methodology section
 
 **New datasets:**
-1. Update verification JSON paths in `app.py`
+1. Update verification JSON paths in `main.py`
 2. Modify category mappings in `predict.py`
 3. Update species selection options
 
@@ -214,7 +209,7 @@ pip install -r requirements.txt
 git lfs pull
 
 # Run locally
-streamlit run web_app/app.py --server.port 8501
+streamlit run web_app/main.py --server.port 8501
 ```
 
 ## Troubleshooting
