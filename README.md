@@ -313,7 +313,7 @@ This project demonstrates strong performance under domain shift, but there are s
 </div>
 
 <div align="center" style="margin:0 0 28px;">
-  <img src="web_app/assets/figs/web_app_2.png"
+  <img src="web_app/assets/web_app.gif"
        alt="Live Inference"
        style="max-width:100%; height:auto; display:block;">
   <div style="margin-top:8px;"><sub>Live Inference</sub></div>
