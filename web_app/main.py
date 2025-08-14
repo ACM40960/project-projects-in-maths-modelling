@@ -232,6 +232,8 @@ with main_tab:
         This project tackles **robust wildlife species recognition** in challenging **camera-trap imagery**,
         with a focus on **domain shift** — the accuracy drop when moving from *seen* to *unseen* camera locations.
 
+        [**View the GitHub Repository**](https://github.com/ACM40960/project-projects-in-maths-modelling)
+
         **Why it matters**  
         Camera-traps generate millions of images annually, but manual sorting is slow and expensive.
         Models trained only on one set of locations often fail badly on new sites due to changes in
@@ -276,7 +278,7 @@ with main_tab:
     with col2:
         st.markdown(
             """<div class='metric-box'>
-                    <div class='metric-value'>15</div>
+                    <div class='metric-value'>14</div>
                     <div class='metric-label'>Species + Vehicle</div>
                 </div>""",
             unsafe_allow_html=True,
