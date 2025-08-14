@@ -251,6 +251,12 @@ For full results, charts, and training details, see the **[Web Application](#web
 
 ##  Results
 
+### Metric Definitions
+- **F1 Score**: Harmonic mean of precision and recall (higher = better balance)
+- **Precision**: Fraction of predictions that are correct (reduces false positives)  
+- **Recall**: Fraction of actual positives found (reduces false negatives)
+- **Domain Gap**: Performance drop from seen (CIS) to unseen (TRANS) locations
+
 ### Domain Shift Performance
 
 ![Results Comparison](web_app/assets/domainshift_delta_f1.png)
@@ -275,10 +281,41 @@ For full results, charts, and training details, see the **[Web Application](#web
 ##  Running the Project
 
 ### 1. Web Application Demo
+
+### Features
+- **Project Overview:** Explains the motivation, challenges, and our two-stage pipeline design.  
+- **Dataset & Experiments:** Details on CCT20 subset, training setups, and reasoning behind design choices.  
+- **Results & Comparisons:** Well-curated figures, tables, and confusion matrices for CIS vs TRANS evaluation.  
+- **Literature Context:** Background on related works and why our approach matters.  
+- **Live Inference Tab:** Test the final pipeline interactively — the app runs the detector + classifier in real-time and shows predictions vs ground truth.
+
+### Demo Screenshots
+
+<div align="center" style="margin:0 0 28px;">
+  <img src="web_app/assets/figs/web_app_1.png"
+       alt="Project Details"
+       style="max-width:100%; height:auto; display:block;">
+  <div style="margin-top:8px;"><sub>Project Details</sub></div>
+</div>
+
+<div align="center" style="margin:0 0 28px;">
+  <img src="web_app/assets/figs/web_app_2.png"
+       alt="Live Inference"
+       style="max-width:100%; height:auto; display:block;">
+  <div style="margin-top:8px;"><sub>Live Inference</sub></div>
+</div>
+
+### Live Demo
+**Primary Access**: [wildlife-cameratrap.streamlit.app](https://wildlife-cameratrap.streamlit.app/) (deployed version)
+
+### Local Development
 ```bash
+# Run locally for development/testing
+cd project-projects-in-maths-modelling/
 streamlit run web_app/app.py
 ```
-An interactive app with project details and live inference, for more please see the **[Web Application](#web-application)** section.
+# Navigate to http://localhost:8501
+
 
 ### 2. Evaluation Notebook
 
@@ -355,42 +392,6 @@ wildlife-camera-trap-classification/
 
 *For detailed information about each component consists info, see the individual README files in each folder **[here](#Documentation)** * .
 
-##  Web Application
-
-### Features
-- **Project Overview:** Explains the motivation, challenges, and our two-stage pipeline design.  
-- **Dataset & Experiments:** Details on CCT20 subset, training setups, and reasoning behind design choices.  
-- **Results & Comparisons:** Well-curated figures, tables, and confusion matrices for CIS vs TRANS evaluation.  
-- **Literature Context:** Background on related works and why our approach matters.  
-- **Live Inference Tab:** Test the final pipeline interactively — the app runs the detector + classifier in real-time and shows predictions vs ground truth.
-
-### Demo Screenshots
-
-<div align="center" style="margin:0 0 28px;">
-  <img src="web_app/assets/figs/web_app_1.png"
-       alt="Project Details"
-       style="max-width:100%; height:auto; display:block;">
-  <div style="margin-top:8px;"><sub>Project Details</sub></div>
-</div>
-
-<div align="center" style="margin:0 0 28px;">
-  <img src="web_app/assets/figs/web_app_2.png"
-       alt="Live Inference"
-       style="max-width:100%; height:auto; display:block;">
-  <div style="margin-top:8px;"><sub>Live Inference</sub></div>
-</div>
-
-### Launch Instructions
-```bash
-cd project-projects-in-maths-modelling/
-streamlit run web_app/main.py
-```
-
-Navigate to `http://localhost:8501` to access the application.
-
-**OR**
-
-Go to [**this**](https://wildlife-cameratrap.streamlit.app/) deployed website, easy.
 
 ##  Documentation
 
