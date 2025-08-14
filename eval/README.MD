@@ -11,6 +11,7 @@ All evaluations use COCO-style ground truth annotations and generate detailed me
 - Evaluates **MegaDetector v6** object detection performance.
 - Metrics: mAP@50, mAP@50–95, precision, recall, F1-score, per-class AP.
 - Includes visual comparisons of predicted vs. ground truth boxes.
+[Open Notebook](evaluation_detector.ipynb)
 
 ### 2. `evaluation_classifier.ipynb`
 - Evaluates the **classification stage** using crops from MegaDetector outputs.
