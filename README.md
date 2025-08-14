@@ -330,6 +330,7 @@ A full walkthrough of the project, covering the entire modelling process from si
 - **End-to-end pipeline testing:** Detector → Classifier with confidence gating and threshold tuning.
 
 *Data covers 14 animal classes + vehicle, with CIS (in-domain) and TRANS (unseen) splits. For the spoiler-free summary, the final pipeline reaches >94 % weighted F1 on unseen sites.*
+
 [Open Evaluation Notebook](evaluation.ipynb)
 
 ---
@@ -348,6 +349,7 @@ An evaluation-only notebook for the final two-stage model (**MegaDetector v6 + C
 - **Matching rules:** IoU ≥ 0.30 or ≥ 60 % GT box enclosed.
 
 *All detections and metrics are cached for instant reproduction; thresholds were grid-searched and fixed for this study.*
+
 [Open Verification Notebook](verification.ipynb)
 
 
