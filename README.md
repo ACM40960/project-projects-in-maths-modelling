@@ -29,7 +29,7 @@
 - [ Dataset](#dataset)
 - [ Methodology](#methodology)
 - [ Results](#results)
-- [ Future Work](#Future-Work)
+- [ Future Work and Limitations](#Future-Work)
 - [ Running the Project](#running-the-project)
 - [ Project Structure](#project-structure)
 - [ Documentation](#documentation)
