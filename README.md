@@ -289,7 +289,62 @@ This project demonstrates strong performance under domain shift, but there are s
 - **Model Variants**: Experiment with **Vision Transformers** (ViTs) and hybrid ConvNet-Transformer backbones for species classification.  
 - **On-Device Inference**: Optimize the final ONNX pipeline for edge deployment (e.g., NVIDIA Jetson, Raspberry Pi).  
 - **Active Learning**: Incorporate human-in-the-loop strategies to iteratively refine predictions on rare or uncertain cases.  
-- **Zero-Shot Recognition**: Evaluate large vision-language models (e.g., CLIP, BioCLIP) for recognizing unseen species.  
+- **Zero-Shot Recognition**: Evaluate large vision-language models (e.g., CLIP, BioCLIP) for recognizing unseen species.
+
+## Limitations & Current Challenges
+
+While our two-stage pipeline achieves strong performance on cross-domain species classification, several limitations remain that present opportunities for future improvement:
+
+### Data-Related Limitations
+
+- **Extreme Class Imbalance**: The **badger** class contains only 6 training samples, resulting in poor classification performance and high false negative rates. This severely limits the model's ability to recognize badgers in real-world scenarios.
+
+- **Geographic Bias**: Training data is predominantly from **North American ecosystems**, potentially limiting generalization to wildlife from other continents with different species morphology and behavior patterns.
+
+### Model Performance Challenges
+
+- **Cat vs Dog Confusion**: Persistent misclassification between **domestic cats** and **dogs**, particularly in low-light conditions or when animals are partially occluded. This suggests the need for more discriminative features in similar-sized carnivores.
+
+- **Small Animal Classification**: **Rodents, birds, and other small fauna** exhibit high inter-class confusion due to:
+  - Similar body proportions and size
+  - Motion blur from rapid movement
+  - Limited distinguishing features at typical camera-trap resolutions
+
+- **Nighttime IR Performance**: **Infrared imagery** presents challenges for fine-grained classification due to:
+  - Reduced texture and color information
+  - Altered contrast patterns
+  - Species-specific heat signatures not captured in training
+
+### Technical Constraints
+
+- **Inference Speed**: Current pipeline prioritizes **accuracy over speed** (~2-3 seconds per image - on local machine), which may limit real-time deployment in resource-constrained environments.
+
+- **Hardware Dependencies**: Tested on systems with 16 and 32 GB RAM - minimum requirements for edge deployment not yet characterized.
+
+- **Domain Specificity**: Model performance may degrade significantly when applied to:
+  - Different camera-trap hardware (varying IR specifications, resolution)
+  - Non-camera-trap wildlife imagery (different perspectives, distances)
+  - Indoor or captive animal scenarios
+
+### Evaluation Limitations
+
+- **Limited Rare Species Evaluation**: With only **6 badger samples**, statistical significance of performance metrics for rare classes is questionable.
+
+- **Single Dataset Validation**: Evaluation limited to **CCT20 benchmark** - generalization to other camera-trap datasets (e.g., Snapshot Serengeti, iWildCam) remains unvalidated.
+
+- **Threshold Sensitivity**: Pipeline performance is sensitive to **confidence thresholds** (0.35 detector, 0.55 classifier) - these may require dataset-specific tuning.
+
+### Methodological Considerations
+
+- **Two-Stage Error Propagation**: Detection errors in **Stage 1** cascade to **Stage 2**, potentially amplifying misclassifications compared to end-to-end approaches.
+
+- **Background Rejection**: Current **"Background" class handling** may incorrectly classify edge cases or novel species not seen during training.
+
+- **Cross-Domain Generalization**: While improved, **domain gap** (ΔF1 ≈ 0.13) still represents performance degradation on unseen locations.
+
+---
+
+*These limitations provide clear directions for future research and highlight the ongoing challenges in robust wildlife monitoring systems.*
 
 
 ##  Running the Project
@@ -385,7 +440,7 @@ wildlife-camera-trap-classification/
 │   ├── detector_stage/            # Object detector results
 │   ├── pipeline_results/          # End-to-end pipeline metrics
 │   ├── evaluation_classifier.ipynb            # Classifier stage eval notebook
-│   ├── evaluation_detector.ipynb            # Detector stage stage eval notebook
+│   ├── evaluation_detector.ipynb            # Detector stage eval notebook
 │   ├── evaluation_pipeline.ipynb            # Full pipeline eval notebook
 │   └── evaluation_singleStage.ipynb            # Single-stage models eval notebook
 ├──  models/                     # Exported ONNX models
