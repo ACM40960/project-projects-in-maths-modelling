@@ -609,8 +609,8 @@ with main_tab:
 
         | Backbone                 | Params | Tricks | 
         |--------------------------|-------:|--------|
-        | EfficientNet-V2-S + **3×CBAM** | 24 M | CB-Focal Loss ✚ WeightedSampler | 
-        | **ConvNeXt-Small (Finetuned)** | 28 M | larger 7×7 DW-conv, LayerNorm, GELU |
+        | EfficientNet-V2-S + **3×CBAM** | 24 M | Convolutional Block Attention Modules  | 
+        | **ConvNeXt-Small (Finetuned)** | 49 M | larger 7×7 DW-conv, LayerNorm, GELU |
 
         |CIS-test F1 | TRANS-test F1 |
         |--------------------------|-------:|
