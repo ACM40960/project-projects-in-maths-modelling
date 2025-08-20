@@ -1064,13 +1064,25 @@ with test_tab:
         if not data['categories']:
             st.error("No verification data found. Please check your JSON files.")
         else:
+            
             # Species selection
             species_options = [cat['name'] for cat in data['categories']]
-            selected_species = st.selectbox(
-                "Select species to predict:",
-                options=species_options,
-                help="Choose which animal species you want to test prediction on"
+            selected_species = st.pills(
+            "Select species to predict:", 
+            options=species_options,
+            selection_mode="single",
+            help="Choose which animal species you want to test prediction on"
             )
+
+            if 'last_selected_species' not in st.session_state:
+                st.session_state.last_selected_species = selected_species
+            elif st.session_state.last_selected_species != selected_species:
+                # Clear previous results when species changes
+                for key in ['current_image', 'current_predictions', 'current_gt', 'current_categories', 'current_filename']:
+                    if key in st.session_state:
+                        del st.session_state[key]
+                st.session_state.last_selected_species = selected_species
+        
             
             if selected_species:
                 # Get images for selected species
@@ -1120,6 +1132,8 @@ with test_tab:
                                             st.session_state.current_gt = gt_annotations
                                             st.session_state.current_categories = data['categories']
                                             st.session_state.current_filename = selected_image_info['file_name']
+
+                                            
                                             
                                         except Exception as e:
                                             st.error(f"Prediction failed: {e}")
