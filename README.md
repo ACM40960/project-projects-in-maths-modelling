@@ -377,6 +377,10 @@ While our two-stage pipeline achieves strong performance on cross-domain species
 ### Live Demo
 **Primary Access**: [wildlife-cameratrap.streamlit.app](https://wildlife-cameratrap.streamlit.app/) (deployed version)
 
+*Note: If you see the message*  
+*"This app has gone to sleep due to inactivity. Would you like to wake it back up?"*  
+just click **"Yes, get this app back up!"** — the app will be live within 5–10 minutes.
+
 ### Local Development
 ```bash
 # Run locally for development/testing
